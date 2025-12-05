@@ -14,7 +14,7 @@
 194.784266,-88.757747,0.0,top,KB10,,,SW_Gateron_LowProfile_THT,I,tht
 213.834266,-88.757747,0.0,top,KB11,,,SW_Gateron_LowProfile_THT,O,tht
 232.884266,-88.757747,0.0,top,KB12,,,SW_Gateron_LowProfile_THT,P,tht
-66.196766,-107.807747,0.0,top,KB13,,,SW_Gateron_LowProfile_THT,ENTER,tht
+237.650666,-107.808547,0.0,top,KB13,,,SW_Gateron_LowProfile_THT,ENTER,tht
 61.434266,-88.757747,0.0,top,KB3,,,SW_Gateron_LowProfile_THT,Q,tht
 80.484266,-88.757747,0.0,top,KB4,,,SW_Gateron_LowProfile_THT,W,tht
 99.534266,-88.757747,0.0,top,KB5,,,SW_Gateron_LowProfile_THT,E,tht
@@ -22,16 +22,16 @@
 137.634266,-88.757747,0.0,top,KB7,,,SW_Gateron_LowProfile_THT,T,tht
 156.684266,-88.757747,0.0,top,KB8,,,SW_Gateron_LowProfile_THT,Y,tht
 175.734266,-88.757747,0.0,top,KB9,,,SW_Gateron_LowProfile_THT,U,tht
-218.596766,-107.807747,0.0,top,KC10,,,SW_Gateron_LowProfile_THT,K,tht
-237.646766,-107.807747,0.0,top,KC11,,,SW_Gateron_LowProfile_THT,L,tht
-85.246766,-107.807747,0.0,top,KC3,,,SW_Gateron_LowProfile_THT,A,tht
-104.296766,-107.807747,0.0,top,KC4,,,SW_Gateron_LowProfile_THT,S,tht
-123.346766,-107.807747,0.0,top,KC5,,,SW_Gateron_LowProfile_THT,D,tht
-142.396766,-107.807747,0.0,top,KC6,,,SW_Gateron_LowProfile_THT,F,tht
-161.446766,-107.807747,0.0,top,KC7,,,SW_Gateron_LowProfile_THT,G,tht
-180.496766,-107.807747,0.0,top,KC8,,,SW_Gateron_LowProfile_THT,H,tht
-199.546766,-107.807747,0.0,top,KC9,,,SW_Gateron_LowProfile_THT,J,tht
-54.290566,-126.857747,0.0,top,KD1,,,SW_Gateron_LowProfile_THT,CAPS SHIFT,tht
+199.548666,-107.808547,0.0,top,KC10,,,SW_Gateron_LowProfile_THT,K,tht
+218.600266,-107.808547,0.0,top,KC11,,,SW_Gateron_LowProfile_THT,L,tht
+66.197066,-107.808547,0.0,top,KC3,,,SW_Gateron_LowProfile_THT,A,tht
+85.247066,-107.808547,0.0,top,KC4,,,SW_Gateron_LowProfile_THT,S,tht
+104.297066,-107.808547,0.0,top,KC5,,,SW_Gateron_LowProfile_THT,D,tht
+123.348266,-107.808547,0.0,top,KC6,,,SW_Gateron_LowProfile_THT,F,tht
+142.398666,-107.808547,0.0,top,KC7,,,SW_Gateron_LowProfile_THT,G,tht
+161.448666,-107.808547,0.0,top,KC8,,,SW_Gateron_LowProfile_THT,H,tht
+180.498666,-107.808547,0.0,top,KC9,,,SW_Gateron_LowProfile_THT,J,tht
+54.290566,-126.858947,0.0,top,KD1,,,SW_Gateron_LowProfile_THT,CAPS SHIFT,tht
 75.647355,-126.817974,0.0,top,KD3,,,SW_Gateron_LowProfile_THT,Z,tht
 94.697355,-126.817974,0.0,top,KD4,,,SW_Gateron_LowProfile_THT,X,tht
 113.747355,-126.817974,0.0,top,KD5,,,SW_Gateron_LowProfile_THT,C,tht
@@ -40,4 +40,4 @@
 170.897355,-126.817974,0.0,top,KD8,,,SW_Gateron_LowProfile_THT,N,tht
 189.947355,-126.857746,0.0,top,KD9,,,SW_Gateron_LowProfile_THT,M,tht
 208.997355,-126.817974,0.0,top,KE1,,,SW_Gateron_LowProfile_THT,SYMBOL SHIFT,tht
-232.809855,-126.817974,0.0,top,KE6,,,SW_Gateron_LowProfile_THT,SPACE,tht
+232.888066,-126.858947,0.0,top,KE6,,,SW_Gateron_LowProfile_THT,SPACE,tht
