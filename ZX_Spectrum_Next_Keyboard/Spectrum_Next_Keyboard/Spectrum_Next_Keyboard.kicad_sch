@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "4d826082-3261-44af-a885-00e0b5b12dc0")
 	(paper "A4")
+	(title_block
+		(title "ZX Spectrum Next Keyboard for Bare Board")
+		(date "28/OCT/2025")
+		(rev "A")
+		(company "Brett Hallen")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -692,6 +698,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push_45deg"
 			(pin_numbers
 				(hide yes)
@@ -869,8 +958,8 @@
 	)
 	(text_box "Second [ENTER] switch (KC12) not required"
 		(exclude_from_sim no)
-		(at 186.69 26.67 0)
-		(size 58.42 7.62)
+		(at 176.53 77.47 0)
+		(size 25.4 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -888,614 +977,608 @@
 		(uuid "f2647487-44b2-42d4-a711-3d8117f8f535")
 	)
 	(junction
-		(at 156.21 66.04)
+		(at 167.64 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02efdab8-a0af-4eb1-b917-ec2ed5600353")
 	)
 	(junction
-		(at 104.14 101.6)
+		(at 186.69 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06167c9f-5004-4ed9-88ab-16deeb4887ac")
+	)
+	(junction
+		(at 115.57 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06a1aef5-030b-48e6-99df-784bbb3ace7a")
 	)
 	(junction
-		(at 135.89 97.79)
+		(at 147.32 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06f4f1ed-bc28-4fae-91c5-43394a2e2426")
 	)
 	(junction
-		(at 104.14 92.71)
+		(at 115.57 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0913a0ce-afb3-414b-a381-2080f4336511")
 	)
 	(junction
-		(at 156.21 110.49)
+		(at 167.64 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b29ec60-c801-4099-b155-d39d74bc300a")
 	)
 	(junction
-		(at 99.06 97.79)
+		(at 110.49 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f39ba4d-856b-454e-99af-b9652f2a1670")
 	)
 	(junction
-		(at 118.11 101.6)
+		(at 129.54 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "118ed32d-20a8-43bf-b046-91482e7c9b7f")
 	)
 	(junction
-		(at 113.03 124.46)
+		(at 124.46 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "166d53b1-82d8-4be8-88f7-cd781555bed5")
 	)
 	(junction
-		(at 156.21 92.71)
+		(at 167.64 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16a3121a-f767-4060-9df8-af6042bc52ea")
 	)
 	(junction
-		(at 151.13 80.01)
+		(at 162.56 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b970b3d-43e6-4de1-b381-69a8ad4558b1")
 	)
 	(junction
-		(at 99.06 115.57)
+		(at 110.49 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21c3ee8f-5218-4f7b-8448-ad4cbb3f57fa")
 	)
 	(junction
-		(at 113.03 97.79)
+		(at 124.46 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "243c6b46-ad4a-4094-91b5-0725d84c6e2f")
 	)
 	(junction
-		(at 99.06 80.01)
+		(at 110.49 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2503fe89-cf39-48ee-b2f7-edf4cba370c6")
 	)
 	(junction
-		(at 99.06 106.68)
+		(at 110.49 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "269191ba-f48f-4a73-8dce-0c3fb0b56ee8")
 	)
 	(junction
-		(at 54.61 110.49)
+		(at 66.04 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26ed934d-d617-45e4-b3d5-8d64c3b84954")
 	)
 	(junction
-		(at 104.14 110.49)
+		(at 115.57 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29e4dc68-cae5-4102-95c8-e6454844bc02")
 	)
 	(junction
-		(at 156.21 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fb55983-87b9-41d4-b071-20dd639952f0")
-	)
-	(junction
-		(at 140.97 110.49)
+		(at 152.4 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "320a8d79-38c9-448d-bc70-08d7159278b5")
 	)
 	(junction
-		(at 54.61 92.71)
+		(at 66.04 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35381673-26c9-4e84-8ada-74db57c28efc")
 	)
 	(junction
-		(at 87.63 124.46)
+		(at 99.06 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b4a95dc-e9b3-4626-883f-693227813132")
 	)
 	(junction
-		(at 118.11 83.82)
+		(at 129.54 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "409c7fbc-9cd1-4f98-94c7-3d2eb9212be8")
 	)
 	(junction
-		(at 87.63 71.12)
+		(at 99.06 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "422ac349-3b79-4f49-ae5c-f695af806cec")
 	)
 	(junction
-		(at 87.63 115.57)
+		(at 99.06 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4656f4a5-7aec-42be-8b02-f2dc547b7589")
 	)
 	(junction
-		(at 118.11 74.93)
+		(at 129.54 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4889c491-53b8-4325-af2c-a46dd360ab36")
 	)
 	(junction
-		(at 92.71 74.93)
+		(at 104.14 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a80bac5-29f6-4d9d-a6fd-5e0826b1a140")
 	)
 	(junction
-		(at 92.71 66.04)
+		(at 104.14 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a848cd2-ee1b-4341-9420-ee75fd4dc491")
 	)
 	(junction
-		(at 49.53 97.79)
+		(at 60.96 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b398741-bc94-432b-89c9-e76d88501576")
 	)
 	(junction
-		(at 73.66 92.71)
+		(at 85.09 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c40278e-12bb-47b2-b8f6-b665214f2cba")
 	)
 	(junction
-		(at 87.63 80.01)
+		(at 99.06 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cc83293-cb45-4cb6-b018-0b2c060456b5")
 	)
 	(junction
-		(at 113.03 106.68)
+		(at 124.46 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d3b7b46-5b63-44e1-8982-e4195749ee83")
 	)
 	(junction
-		(at 92.71 101.6)
+		(at 104.14 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52838388-c710-493b-86dc-8151d5d63775")
 	)
 	(junction
-		(at 87.63 97.79)
+		(at 99.06 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53afba55-eaaf-4473-ba7c-15f69dcfd8d9")
 	)
 	(junction
-		(at 113.03 80.01)
+		(at 124.46 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54c451f9-93d4-4a0b-9f6c-8a2d2068808e")
 	)
 	(junction
-		(at 104.14 74.93)
+		(at 115.57 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56f08a81-0369-4550-9ce9-fdc5b1089d10")
 	)
 	(junction
-		(at 99.06 133.35)
+		(at 110.49 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57c9da5f-dac9-472c-8190-2ab8da6234b7")
 	)
 	(junction
-		(at 49.53 71.12)
+		(at 60.96 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "582a5321-642e-4c3d-afde-52959cf22653")
 	)
 	(junction
-		(at 156.21 74.93)
+		(at 167.64 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ac244a2-1214-4a88-b45c-47f42c8854fa")
 	)
 	(junction
-		(at 73.66 110.49)
+		(at 85.09 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b7b0cf5-cac4-4d52-a883-fe3997d8c1ad")
 	)
 	(junction
-		(at 68.58 71.12)
+		(at 80.01 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c77ec15-3313-45ba-9835-a244aca068b5")
 	)
 	(junction
-		(at 135.89 124.46)
+		(at 147.32 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f12f8be-c902-45c2-acce-abd89255340c")
 	)
 	(junction
-		(at 68.58 115.57)
+		(at 80.01 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6076a37a-892d-490d-bf04-cd6f4b96aa3a")
 	)
 	(junction
-		(at 73.66 119.38)
+		(at 85.09 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "616ea766-52b6-402e-9854-cc2277402a9d")
 	)
 	(junction
-		(at 68.58 80.01)
+		(at 80.01 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65ddbdea-9219-479a-9983-f4ab6074b73c")
 	)
 	(junction
-		(at 118.11 110.49)
+		(at 129.54 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "681c9f55-5e65-4cc6-901e-c6a6fd18354e")
 	)
 	(junction
-		(at 39.37 74.93)
+		(at 50.8 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ef836d2-69be-4ce5-8459-1fe48e1cfac2")
 	)
 	(junction
-		(at 87.63 106.68)
+		(at 99.06 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa211e3-0dc0-4fa8-9388-03e13bfda49d")
 	)
 	(junction
-		(at 68.58 124.46)
+		(at 80.01 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c578d6-35d5-4874-bc1c-70ad2ac0e942")
 	)
 	(junction
-		(at 54.61 101.6)
+		(at 66.04 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f6c11d-7f1a-40dd-ae7e-3e0385c443d6")
 	)
 	(junction
-		(at 140.97 83.82)
+		(at 152.4 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74645113-8086-4324-9a48-e947cfd6637d")
 	)
 	(junction
-		(at 49.53 124.46)
+		(at 60.96 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77ce2465-436d-444a-b8c0-856525f4d613")
 	)
 	(junction
-		(at 68.58 106.68)
+		(at 80.01 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78cc7af1-5f1d-4127-a941-db5eef1a0d47")
 	)
 	(junction
-		(at 118.11 92.71)
+		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "797ce508-644e-4727-9a95-31a4f96015dc")
 	)
 	(junction
-		(at 87.63 133.35)
+		(at 99.06 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b3e2264-a703-4fce-97f5-8ca41b966e73")
 	)
 	(junction
-		(at 135.89 115.57)
+		(at 147.32 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b84e64b-9b4c-4634-b6d7-a80be11ef15f")
 	)
 	(junction
-		(at 140.97 74.93)
+		(at 152.4 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d1f6674-7577-4b48-a07d-a5fa1708ed65")
 	)
 	(junction
-		(at 151.13 97.79)
+		(at 162.56 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dd44cea-d2ea-4a13-aca1-eedf84876123")
 	)
 	(junction
-		(at 135.89 80.01)
+		(at 147.32 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f6c6df3-251b-4f36-9d7d-f48a2cf42233")
 	)
 	(junction
-		(at 113.03 115.57)
+		(at 124.46 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85054ce6-c23a-4721-a599-5d4cc6128a64")
 	)
 	(junction
-		(at 54.61 74.93)
+		(at 66.04 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8627568b-ca27-4469-b8dc-e0489ba6be5f")
 	)
 	(junction
-		(at 135.89 71.12)
+		(at 147.32 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86f67159-0424-4e8e-a3b4-feeda5ef34dc")
 	)
 	(junction
-		(at 73.66 66.04)
+		(at 85.09 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8816590a-77e7-402f-a11a-d80aa4a52126")
 	)
 	(junction
-		(at 49.53 106.68)
+		(at 60.96 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88e0393f-356b-4289-8942-51bbc945ba96")
 	)
 	(junction
-		(at 39.37 110.49)
+		(at 50.8 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c208dfa-a538-475a-9232-0bb6a2bd8740")
 	)
 	(junction
-		(at 54.61 66.04)
+		(at 66.04 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93fd6952-08fb-490c-a58d-b8656416bf12")
 	)
 	(junction
-		(at 39.37 66.04)
+		(at 50.8 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9614a7b2-1c32-4cfa-abb3-694861488b8e")
 	)
 	(junction
-		(at 54.61 119.38)
+		(at 66.04 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "984bcb0e-fe76-4c95-81b5-64655bea930b")
 	)
 	(junction
-		(at 113.03 133.35)
+		(at 124.46 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99e40950-2f94-4ab8-b0c6-f22d7f939985")
 	)
 	(junction
-		(at 151.13 106.68)
+		(at 162.56 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a3eca23-4cdc-45be-80a9-3b77e4850b21")
 	)
 	(junction
-		(at 156.21 101.6)
+		(at 167.64 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a4e4e7f-0d47-4277-b395-b84eb87f927a")
 	)
 	(junction
-		(at 151.13 133.35)
+		(at 162.56 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a79d9a6-7994-404b-85a6-cb806a4ea226")
 	)
 	(junction
-		(at 151.13 115.57)
+		(at 162.56 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9adbda76-0fdd-424a-be2b-0a28c82f5c20")
 	)
 	(junction
-		(at 135.89 133.35)
+		(at 147.32 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a155df23-7cdf-4a86-be70-b42fc88b1d35")
 	)
 	(junction
-		(at 151.13 71.12)
+		(at 162.56 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a277e3d9-69d8-44d5-8f25-cbd08dbba453")
 	)
 	(junction
-		(at 140.97 119.38)
+		(at 152.4 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a306f7c1-7348-422e-8071-2a9a9f8ce0d9")
 	)
 	(junction
-		(at 68.58 133.35)
+		(at 80.01 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a472c50b-9fc3-41ce-9123-858b363ae457")
 	)
 	(junction
-		(at 73.66 101.6)
+		(at 85.09 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6a061dd-c4a0-462d-9ae4-7d1721d6c996")
 	)
 	(junction
-		(at 140.97 92.71)
+		(at 152.4 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a931f302-077e-4fc4-807b-80db8840cf08")
 	)
 	(junction
-		(at 49.53 133.35)
+		(at 60.96 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9948749-c990-4e37-8121-5e638051100c")
 	)
 	(junction
-		(at 140.97 66.04)
+		(at 152.4 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac7a9c40-feeb-4288-91b7-7a4333898a63")
 	)
 	(junction
-		(at 104.14 66.04)
+		(at 115.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae40f18a-48bf-4840-a145-e795c5bd3f96")
 	)
 	(junction
-		(at 113.03 71.12)
+		(at 124.46 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b11ff45c-5924-426a-a958-f78d63aad5db")
 	)
 	(junction
-		(at 73.66 74.93)
+		(at 85.09 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b36f7b0b-a2fe-4060-a169-828cb415671c")
 	)
 	(junction
-		(at 99.06 71.12)
+		(at 110.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b459e7d8-2cc1-4612-9739-c5461ed6841a")
 	)
 	(junction
-		(at 68.58 97.79)
+		(at 80.01 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5f2c3cf-63d1-4d58-979f-dfeca453a162")
 	)
 	(junction
-		(at 118.11 66.04)
+		(at 129.54 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6752c4b-8053-4679-84c0-bbdbe6d97988")
 	)
 	(junction
-		(at 135.89 106.68)
+		(at 147.32 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd29fab1-d570-4e6e-9f88-a5e3f5c64b21")
 	)
 	(junction
-		(at 39.37 119.38)
+		(at 50.8 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5da080-a9fa-47d4-851c-932d0f389f16")
 	)
 	(junction
-		(at 49.53 80.01)
+		(at 60.96 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d12a937d-4b73-435f-8b00-09bfff7b108f")
 	)
 	(junction
-		(at 99.06 124.46)
+		(at 110.49 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1771e68-2024-4352-950f-0f0487c2b5c3")
 	)
 	(junction
-		(at 172.72 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d23336cb-002d-41ef-acdb-874c46554556")
-	)
-	(junction
-		(at 92.71 119.38)
+		(at 104.14 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d867913b-ce72-4d9e-aaa2-1e20b7295790")
 	)
 	(junction
-		(at 151.13 124.46)
+		(at 162.56 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbf50f47-f5b2-4842-9265-626fe838e69a")
 	)
 	(junction
-		(at 92.71 110.49)
+		(at 104.14 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5005eaf-bbe5-42a2-9041-e8bed1fe7a23")
 	)
 	(junction
-		(at 92.71 92.71)
+		(at 104.14 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8d2c0bb-2a70-4626-96fa-db530f585782")
 	)
 	(junction
-		(at 156.21 119.38)
+		(at 167.64 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8dbdb4e-eb31-4348-b298-71d75335125b")
 	)
 	(junction
-		(at 118.11 119.38)
+		(at 129.54 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb557eb4-7898-4618-a143-ba8477e3d576")
 	)
 	(junction
-		(at 104.14 119.38)
+		(at 115.57 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee122989-d639-4304-ac28-4081e95915dd")
 	)
 	(junction
-		(at 49.53 115.57)
+		(at 60.96 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f086d6d9-307b-4ae6-bf01-79b605ff0e5b")
 	)
 	(junction
-		(at 39.37 92.71)
+		(at 50.8 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f274b3a9-1356-4290-9ec7-3482a043e1c1")
 	)
 	(junction
-		(at 140.97 101.6)
+		(at 152.4 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa77c45f-2a7b-4953-ae3f-baca29da7b96")
 	)
 	(junction
-		(at 39.37 101.6)
+		(at 50.8 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdaf2dad-fd7b-42e0-98a4-2fb1b7ff6d01")
 	)
 	(wire
 		(pts
-			(xy 151.13 124.46) (xy 194.31 124.46)
+			(xy 162.56 116.84) (xy 210.82 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1505,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 106.68) (xy 99.06 106.68)
+			(xy 99.06 99.06) (xy 110.49 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1515,7 +1598,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 97.79) (xy 49.53 97.79)
+			(xy 45.72 90.17) (xy 60.96 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1525,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 80.01) (xy 68.58 80.01)
+			(xy 60.96 72.39) (xy 80.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 177.8 100.33)
+			(xy 167.64 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 92.71) (xy 140.97 101.6)
+			(xy 152.4 85.09) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1555,17 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 55.88) (xy 39.37 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06547410-c463-4455-8865-58e72c54cec0")
-	)
-	(wire
-		(pts
-			(xy 68.58 115.57) (xy 87.63 115.57)
+			(xy 80.01 107.95) (xy 99.06 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 119.38) (xy 104.14 128.27)
+			(xy 115.57 111.76) (xy 115.57 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1585,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 156.21 92.71)
+			(xy 167.64 67.31) (xy 167.64 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1595,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 71.12) (xy 87.63 71.12)
+			(xy 80.01 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1605,17 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 55.88) (xy 156.21 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119a486e-710b-4ea7-843a-2db060b9a713")
-	)
-	(wire
-		(pts
-			(xy 49.53 115.57) (xy 68.58 115.57)
+			(xy 60.96 107.95) (xy 80.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 68.58 133.35)
+			(xy 60.96 125.73) (xy 80.01 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1698,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 104.14 110.49)
+			(xy 217.17 113.03) (xy 212.09 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19738b0a-25ae-4552-bbc9-e8b28871233c")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 115.57 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 104.14 74.93)
+			(xy 115.57 58.42) (xy 115.57 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1655,7 +1728,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 106.68) (xy 135.89 106.68)
+			(xy 124.46 99.06) (xy 147.32 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 74.93) (xy 104.14 92.71)
+			(xy 115.57 67.31) (xy 115.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 115.57) (xy 194.31 115.57)
+			(xy 162.56 107.95) (xy 217.17 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 110.49) (xy 39.37 119.38)
+			(xy 50.8 102.87) (xy 50.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 74.93) (xy 39.37 92.71)
+			(xy 50.8 67.31) (xy 50.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1705,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 133.35) (xy 135.89 133.35)
+			(xy 124.46 125.73) (xy 147.32 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1715,17 +1788,37 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 54.61 66.04)
+			(xy 177.8 36.83) (xy 66.04 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "342a98ce-d7a2-4c30-8784-78f4ebfaf69d")
+		(uuid "2dd10877-69c0-4a6d-b9dd-19daf1a95a63")
 	)
 	(wire
 		(pts
-			(xy 140.97 74.93) (xy 140.97 83.82)
+			(xy 217.17 102.87) (xy 212.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4a6bbe-febc-4dbc-a2a8-5d53ea4ff3ec")
+	)
+	(wire
+		(pts
+			(xy 212.09 68.58) (xy 212.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31aa65bd-2745-49b7-a9eb-09c685605c2d")
+	)
+	(wire
+		(pts
+			(xy 152.4 67.31) (xy 152.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 66.04) (xy 118.11 74.93)
+			(xy 129.54 58.42) (xy 129.54 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 88.9) (xy 135.89 97.79)
+			(xy 147.32 81.28) (xy 147.32 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 133.35) (xy 99.06 133.35)
+			(xy 99.06 125.73) (xy 110.49 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1858,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 80.01) (xy 151.13 80.01)
+			(xy 66.04 36.83) (xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414e5031-0e0a-46d9-8b48-e97f476ae8cf")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 162.56 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1878,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 74.93) (xy 54.61 92.71)
+			(xy 66.04 67.31) (xy 66.04 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1888,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 194.31 71.12)
+			(xy 162.56 63.5) (xy 212.09 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1898,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 106.68) (xy 172.72 106.68)
+			(xy 217.17 110.49) (xy 210.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdf6aa8-dd13-419d-a164-2dbaf8f7f657")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 186.69 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 66.04) (xy 156.21 74.93)
+			(xy 167.64 58.42) (xy 167.64 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +1928,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 106.68) (xy 113.03 106.68)
+			(xy 212.09 102.87) (xy 212.09 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb34214-57e0-47b9-9155-f35d6806f3cc")
+	)
+	(wire
+		(pts
+			(xy 167.64 52.07) (xy 167.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa5b47b-6543-4232-8ded-e431327828ca")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 124.46 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 156.21 101.6)
+			(xy 167.64 85.09) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1968,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 106.68) (xy 68.58 106.68)
+			(xy 60.96 99.06) (xy 80.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +1978,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 73.66 101.6)
+			(xy 186.69 99.06) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f854bf-decd-4eab-a2c2-aa63e86fbbbf")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 85.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1998,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 83.82) (xy 140.97 92.71)
+			(xy 152.4 76.2) (xy 152.4 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +2008,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 133.35) (xy 194.31 133.35)
+			(xy 162.56 125.73) (xy 212.09 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 55.88) (xy 92.71 66.04)
+			(xy 104.14 41.91) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 124.46) (xy 68.58 124.46)
+			(xy 60.96 116.84) (xy 80.01 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 110.49) (xy 156.21 119.38)
+			(xy 167.64 102.87) (xy 167.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1905,7 +2048,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 119.38) (xy 156.21 128.27)
+			(xy 167.64 111.76) (xy 167.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +2058,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 101.6) (xy 118.11 110.49)
+			(xy 129.54 93.98) (xy 129.54 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1925,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 119.38) (xy 73.66 128.27)
+			(xy 85.09 111.76) (xy 85.09 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +2078,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 92.71) (xy 54.61 101.6)
+			(xy 66.04 85.09) (xy 66.04 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +2088,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 124.46) (xy 49.53 124.46)
+			(xy 177.8 46.99) (xy 129.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61d3c348-9b80-4304-97b0-b865439925c0")
+	)
+	(wire
+		(pts
+			(xy 45.72 116.84) (xy 60.96 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 71.12) (xy 151.13 71.12)
+			(xy 147.32 63.5) (xy 162.56 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 54.61 119.38)
+			(xy 66.04 102.87) (xy 66.04 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 133.35) (xy 49.53 133.35)
+			(xy 45.72 125.73) (xy 60.96 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 101.6) (xy 140.97 110.49)
+			(xy 152.4 93.98) (xy 152.4 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 74.93) (xy 73.66 92.71)
+			(xy 85.09 67.31) (xy 85.09 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 66.04) (xy 73.66 74.93)
+			(xy 85.09 58.42) (xy 85.09 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2168,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 71.12) (xy 135.89 71.12)
+			(xy 124.46 63.5) (xy 147.32 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 124.46) (xy 135.89 124.46)
+			(xy 124.46 116.84) (xy 147.32 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2188,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 101.6) (xy 92.71 110.49)
+			(xy 104.14 93.98) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 110.49) (xy 140.97 119.38)
+			(xy 152.4 102.87) (xy 152.4 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2208,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 118.11 101.6)
+			(xy 129.54 85.09) (xy 129.54 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 119.38) (xy 39.37 128.27)
+			(xy 50.8 111.76) (xy 50.8 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 110.49) (xy 104.14 119.38)
+			(xy 115.57 102.87) (xy 115.57 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2085,17 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 106.68) (xy 194.31 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79cd7a36-8d01-4f3a-a2c3-d8e45f0a7902")
-	)
-	(wire
-		(pts
-			(xy 99.06 124.46) (xy 113.03 124.46)
+			(xy 110.49 116.84) (xy 124.46 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2105,7 +2248,37 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 133.35) (xy 151.13 133.35)
+			(xy 152.4 49.53) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c68ebb9-e095-4c40-ab88-cc6a6c1389c4")
+	)
+	(wire
+		(pts
+			(xy 177.8 44.45) (xy 115.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e1f4941-babc-4374-b824-63ffe14c3755")
+	)
+	(wire
+		(pts
+			(xy 177.8 41.91) (xy 104.14 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e371fa4-d1f8-479f-9e48-56d27eba4179")
+	)
+	(wire
+		(pts
+			(xy 147.32 125.73) (xy 162.56 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2115,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 110.49) (xy 92.71 119.38)
+			(xy 104.14 102.87) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2125,7 +2298,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 92.71) (xy 39.37 101.6)
+			(xy 50.8 85.09) (xy 50.8 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 92.71) (xy 92.71 101.6)
+			(xy 104.14 85.09) (xy 104.14 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 115.57) (xy 49.53 115.57)
+			(xy 45.72 107.95) (xy 60.96 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +2328,27 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 133.35) (xy 113.03 133.35)
+			(xy 50.8 34.29) (xy 50.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7cc8b5-168d-4e21-aca9-5eba2a74b1ba")
+	)
+	(wire
+		(pts
+			(xy 210.82 110.49) (xy 210.82 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebb1874-ff23-4089-886a-5fe477e04615")
+	)
+	(wire
+		(pts
+			(xy 110.49 125.73) (xy 124.46 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2165,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 106.68) (xy 151.13 106.68)
+			(xy 147.32 99.06) (xy 162.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 97.79) (xy 151.13 97.79)
+			(xy 147.32 90.17) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 74.93) (xy 92.71 92.71)
+			(xy 104.14 67.31) (xy 104.14 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 101.6) (xy 39.37 110.49)
+			(xy 50.8 93.98) (xy 50.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2398,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 119.38) (xy 92.71 128.27)
+			(xy 104.14 111.76) (xy 104.14 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2215,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 110.49) (xy 118.11 119.38)
+			(xy 129.54 102.87) (xy 129.54 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2225,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 54.61 128.27)
+			(xy 66.04 111.76) (xy 66.04 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 80.01) (xy 113.03 80.01)
+			(xy 110.49 72.39) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2245,7 +2438,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 55.88) (xy 73.66 66.04)
+			(xy 85.09 39.37) (xy 85.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2255,7 +2448,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 80.01) (xy 135.89 80.01)
+			(xy 129.54 46.99) (xy 129.54 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5d6561e-f9de-4e67-b31d-3148841e3cba")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 147.32 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 101.6) (xy 156.21 110.49)
+			(xy 167.64 93.98) (xy 167.64 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2478,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 71.12) (xy 68.58 71.12)
+			(xy 177.8 52.07) (xy 167.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3ad3a7-dd10-4834-b6db-c3d31bcf7c0d")
+	)
+	(wire
+		(pts
+			(xy 60.96 63.5) (xy 80.01 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 124.46) (xy 99.06 124.46)
+			(xy 99.06 116.84) (xy 110.49 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2295,7 +2508,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 66.04) (xy 39.37 74.93)
+			(xy 50.8 58.42) (xy 50.8 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2305,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 66.04) (xy 92.71 74.93)
+			(xy 104.14 58.42) (xy 104.14 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2315,7 +2528,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 83.82) (xy 118.11 92.71)
+			(xy 212.09 113.03) (xy 212.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7df0524-f1c8-4f69-bdbe-7ee79aa21e1d")
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2548,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 97.79) (xy 68.58 97.79)
+			(xy 60.96 90.17) (xy 80.01 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2335,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 194.31 97.79)
+			(xy 162.56 90.17) (xy 212.09 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 97.79) (xy 87.63 97.79)
+			(xy 80.01 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2355,7 +2578,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 110.49) (xy 73.66 119.38)
+			(xy 85.09 102.87) (xy 85.09 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2365,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 124.46) (xy 151.13 124.46)
+			(xy 147.32 116.84) (xy 162.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 97.79) (xy 135.89 97.79)
+			(xy 124.46 90.17) (xy 147.32 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 101.6) (xy 73.66 110.49)
+			(xy 85.09 93.98) (xy 85.09 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2395,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 74.93) (xy 118.11 83.82)
+			(xy 129.54 67.31) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2405,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 66.04) (xy 140.97 74.93)
+			(xy 152.4 58.42) (xy 152.4 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 124.46) (xy 87.63 124.46)
+			(xy 80.01 116.84) (xy 99.06 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2425,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 115.57) (xy 135.89 115.57)
+			(xy 124.46 107.95) (xy 147.32 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 99.06 97.79)
+			(xy 99.06 90.17) (xy 110.49 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2445,7 +2668,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 115.57) (xy 151.13 115.57)
+			(xy 147.32 107.95) (xy 162.56 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2455,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 115.57) (xy 113.03 115.57)
+			(xy 110.49 107.95) (xy 124.46 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 71.12) (xy 113.03 71.12)
+			(xy 110.49 63.5) (xy 124.46 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2475,17 +2698,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 55.88) (xy 118.11 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ced2bb49-e454-41f6-9aec-30d3f29bd23f")
-	)
-	(wire
-		(pts
-			(xy 104.14 92.71) (xy 104.14 101.6)
+			(xy 115.57 85.09) (xy 115.57 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2495,7 +2708,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 80.01) (xy 49.53 80.01)
+			(xy 217.17 105.41) (xy 210.82 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf31538f-2fb2-4c31-9f76-17b8be679875")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 60.96 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2505,7 +2728,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 71.12) (xy 99.06 71.12)
+			(xy 212.09 66.04) (xy 212.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49cb921-0e7a-4a45-8707-720f9314e2c5")
+	)
+	(wire
+		(pts
+			(xy 99.06 63.5) (xy 110.49 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2515,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 80.01) (xy 194.31 80.01)
+			(xy 162.56 72.39) (xy 212.09 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2525,7 +2758,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 80.01) (xy 99.06 80.01)
+			(xy 99.06 72.39) (xy 110.49 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 71.12) (xy 49.53 71.12)
+			(xy 45.72 63.5) (xy 60.96 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2545,7 +2778,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 106.68) (xy 49.53 106.68)
+			(xy 210.82 105.41) (xy 210.82 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2538ce8-07d6-4bfe-b3dc-4b358c06d351")
+	)
+	(wire
+		(pts
+			(xy 45.72 99.06) (xy 60.96 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2555,7 +2798,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 133.35) (xy 87.63 133.35)
+			(xy 177.8 39.37) (xy 85.09 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e414c840-167c-4ce8-9954-13f5bb56e173")
+	)
+	(wire
+		(pts
+			(xy 80.01 125.73) (xy 99.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2818,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 66.04) (xy 54.61 74.93)
+			(xy 66.04 58.42) (xy 66.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2575,17 +2828,27 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 156.21 100.33)
+			(xy 177.8 49.53) (xy 152.4 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef63d81e-562f-431e-960e-07566c21e680")
+		(uuid "e8ce38ec-eeea-4499-82c0-ba060ae78c78")
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 113.03 97.79)
+			(xy 215.9 68.58) (xy 212.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed346217-0770-4cc5-bb2d-b36faea0c50d")
+	)
+	(wire
+		(pts
+			(xy 124.46 81.28) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2595,7 +2858,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 80.01) (xy 87.63 80.01)
+			(xy 80.01 72.39) (xy 99.06 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2605,7 +2868,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 104.14 66.04)
+			(xy 115.57 44.45) (xy 115.57 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2878,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 115.57) (xy 99.06 115.57)
+			(xy 99.06 107.95) (xy 110.49 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2888,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 118.11 128.27)
+			(xy 177.8 34.29) (xy 50.8 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f311f50d-4a60-454f-91c3-58386bb0988f")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 129.54 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2635,17 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 55.88) (xy 140.97 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e45dc2-42fa-4d28-b95e-98d42b2ce379")
-	)
-	(wire
-		(pts
-			(xy 140.97 119.38) (xy 140.97 128.27)
+			(xy 152.4 111.76) (xy 152.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2655,7 +2918,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 101.6) (xy 54.61 110.49)
+			(xy 215.9 66.04) (xy 212.09 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f924dcda-25d8-4fb6-a627-27257fec5895")
+	)
+	(wire
+		(pts
+			(xy 66.04 93.98) (xy 66.04 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2665,17 +2938,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 100.33) (xy 177.8 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb99ee72-7326-4785-93bd-cdb1bc41c6b8")
-	)
-	(wire
-		(pts
-			(xy 68.58 106.68) (xy 87.63 106.68)
+			(xy 80.01 99.06) (xy 99.06 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +2948,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 113.03 97.79)
+			(xy 110.49 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2693,669 +2956,159 @@
 		)
 		(uuid "fdff1096-425f-44f2-bdcf-2c078a3fbe9f")
 	)
-	(global_label "COL2"
-		(shape input)
-		(at 54.61 55.88 180)
-		(fields_autoplaced yes)
+	(label "COL7"
+		(at 170.18 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "069b481c-6181-486b-a82e-1e6b0cc6bca0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.7867 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "24b884d0-ac06-46ed-92f3-80a6f4dfec0b")
 	)
-	(global_label "COL6"
-		(shape input)
-		(at 237.49 91.44 180)
-		(fields_autoplaced yes)
+	(label "COL5"
+		(at 170.18 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "15b857c5-569c-4709-b767-31f40d891c8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "269e7be3-efad-4670-bd78-b3ec2917f208")
 	)
-	(global_label "ROW5"
-		(shape input)
-		(at 194.31 133.35 0)
-		(fields_autoplaced yes)
+	(label "ROW2"
+		(at 203.2 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "1bfbeb8d-e2ba-4b1b-a1c8-8a75e32b0f6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5566 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "28eecc75-73a0-4151-b9eb-2f97d173686c")
 	)
-	(global_label "COL8"
-		(shape input)
-		(at 237.49 96.52 180)
-		(fields_autoplaced yes)
+	(label "COL8"
+		(at 170.18 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "22125d56-2f9e-4743-aae0-c79f61ed7c75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "444a80f0-e894-4e29-8945-38d59f2ca925")
 	)
-	(global_label "ROW2"
-		(shape input)
-		(at 194.31 106.68 0)
-		(fields_autoplaced yes)
+	(label "COL6"
+		(at 170.18 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "2a1a8cc8-ddce-46bb-9865-8a6aeff3b47e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5566 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "4b11bb41-0994-4d1a-a3c7-b7f9e6537317")
 	)
-	(global_label "ROW1"
-		(shape input)
-		(at 237.49 101.6 180)
-		(fields_autoplaced yes)
+	(label "COL3"
+		(at 170.18 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "326e400a-c17c-4c9c-a630-d0be141c8a53")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "6a7c6bf5-c01d-4c8d-9c1d-b196268a1cd3")
 	)
-	(global_label "COL7"
-		(shape input)
-		(at 237.49 93.98 180)
-		(fields_autoplaced yes)
+	(label "ROW7"
+		(at 203.2 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "3f9ab781-6b0f-43f2-9b6d-6f7328063e02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "8387a633-7150-4bb3-902c-305c03551899")
 	)
-	(global_label "COL8"
-		(shape input)
-		(at 156.21 55.88 180)
-		(fields_autoplaced yes)
+	(label "ROW3"
+		(at 203.2 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "54caf6a2-051c-4c56-a2c1-88e7fe8fcad6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.3867 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "891770c2-d091-47cc-8dd6-2021c3797b22")
 	)
-	(global_label "ROW7"
-		(shape input)
-		(at 237.49 119.38 180)
-		(fields_autoplaced yes)
+	(label "COL4"
+		(at 170.18 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "5d8ff51e-a5c5-4320-a17f-75e0d8a35bda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "90aca027-cab6-474d-8f50-8eab71e913d0")
 	)
-	(global_label "ROW1"
-		(shape input)
-		(at 194.31 97.79 0)
-		(fields_autoplaced yes)
+	(label "COL2"
+		(at 170.18 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "5f3031b2-32d8-45d1-98cf-667b5a006d9d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5566 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "a0b761b2-a6b8-4fa9-824d-6ec1268438f1")
 	)
-	(global_label "COL1"
-		(shape input)
-		(at 39.37 55.88 180)
-		(fields_autoplaced yes)
+	(label "ROW4"
+		(at 203.2 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "60aabff3-c21f-4ca8-a11d-b6f791e4e451")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.5467 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "b1051a39-cec0-4411-bf09-9537753e65b7")
 	)
-	(global_label "COL3"
-		(shape input)
-		(at 73.66 55.88 180)
-		(fields_autoplaced yes)
+	(label "ROW5"
+		(at 203.2 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "65be65ef-9eb6-4522-8125-4bfc43b68267")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.8367 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "c299cee7-e006-4a65-aeed-371f360f0cac")
 	)
-	(global_label "COL1"
-		(shape input)
-		(at 237.49 78.74 180)
-		(fields_autoplaced yes)
+	(label "ROW1"
+		(at 203.2 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "6ec77d74-0bb8-4d74-af99-faabd76d5787")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "db0b4ebf-84cd-42d1-892d-d1d709198cb1")
 	)
-	(global_label "ROW6"
-		(shape input)
-		(at 194.31 71.12 0)
-		(fields_autoplaced yes)
+	(label "COL1"
+		(at 170.18 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "8f6c96e9-4396-4771-99ba-d90361bc1027")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5566 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "e7918f6c-644d-4067-b3c6-0e55b402a5bb")
 	)
-	(global_label "ROW2"
-		(shape input)
-		(at 237.49 104.14 180)
-		(fields_autoplaced yes)
+	(label "ROW6"
+		(at 203.2 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "95219ad3-db25-4306-ba4e-393aebf80df8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW6"
-		(shape input)
-		(at 237.49 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "954bac4c-d3ad-438c-8ad1-f10faa701b4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW7"
-		(shape input)
-		(at 194.31 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "96cdde67-b8f6-4300-8bf7-06df13d406d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5566 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW4"
-		(shape input)
-		(at 194.31 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9dc2a1d9-e315-4939-b132-0c431a1a77fe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5566 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL3"
-		(shape input)
-		(at 237.49 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a241c2d4-74e7-4dcc-a340-ab95cf3837a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL5"
-		(shape input)
-		(at 237.49 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b80eaa13-a039-4d5a-b466-68e12baf1da3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL2"
-		(shape input)
-		(at 237.49 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c44a548c-a19c-411d-bafe-ccd729623340")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL6"
-		(shape input)
-		(at 118.11 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6fe4c00-1d0a-41f1-9b3f-2cd6d840abb2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.2867 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL4"
-		(shape input)
-		(at 237.49 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c77ade14-3440-4c6a-b8a3-6d5b48923d57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6667 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW4"
-		(shape input)
-		(at 237.49 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ca8b7bcd-c421-47ac-b46a-920d97940569")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL5"
-		(shape input)
-		(at 104.14 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d398d9fa-dd15-43b1-b3ba-d4ea22298fc2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3167 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL7"
-		(shape input)
-		(at 140.97 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d82fd607-2008-469c-9837-d4fe5b2bff3f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1467 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape input)
-		(at 194.31 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e69362ec-9e4c-48bf-b27d-18cc41805223")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.5566 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW5"
-		(shape input)
-		(at 237.49 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "edae6eff-7888-41f9-b312-6f6134944ced")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROW3"
-		(shape input)
-		(at 237.49 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "efcb5489-fd36-4484-bb7e-d4a318868937")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.2434 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "COL4"
-		(shape input)
-		(at 92.71 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd4be2a8-b967-4b32-94aa-734350755fbc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.8867 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "f7129eff-348e-434c-80e9-29560855f837")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 90.17 68.58 90)
+		(at 101.6 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3364,7 +3117,7 @@
 		(fields_autoplaced yes)
 		(uuid "00cd6f95-e0d7-4eea-94ad-c10248a4eed2")
 		(property "Reference" "KE2"
-			(at 93.98 67.3099 90)
+			(at 105.41 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3126,7 @@
 			)
 		)
 		(property "Value" ";"
-			(at 93.98 69.8499 90)
+			(at 105.41 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3135,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 90.17 68.58 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 68.58 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3153,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 90.17 68.58 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3178,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 113.03 90)
+		(at 127 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3434,7 +3187,7 @@
 		(fields_autoplaced yes)
 		(uuid "05862243-4f3e-4e2c-805e-ef4d0cfbb73f")
 		(property "Reference" "KD4"
-			(at 119.38 111.7599 90)
+			(at 130.81 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3196,7 @@
 			)
 		)
 		(property "Value" "X"
-			(at 119.38 114.2999 90)
+			(at 130.81 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3205,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 113.03 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3214,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 113.03 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3223,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 113.03 0)
+			(at 127 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +3248,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 104.14 90)
+		(at 63.5 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3504,7 +3257,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f47a45c-9bd1-4576-8e1f-e13c3a745edb")
 		(property "Reference" "KB4"
-			(at 55.88 102.8699 90)
+			(at 67.31 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,7 +3266,7 @@
 			)
 		)
 		(property "Value" "W"
-			(at 55.88 105.4099 90)
+			(at 67.31 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3275,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 52.07 104.14 0)
+			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3531,7 +3284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 104.14 0)
+			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3540,7 +3293,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 104.14 0)
+			(at 63.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3318,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 101.6 95.25 90)
+		(at 113.03 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3574,7 +3327,7 @@
 		(fields_autoplaced yes)
 		(uuid "1509de6a-4b3e-47e0-9198-e7a5ff2bf08e")
 		(property "Reference" "KB12"
-			(at 105.41 93.9799 90)
+			(at 116.84 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3336,7 @@
 			)
 		)
 		(property "Value" "P"
-			(at 105.41 96.5199 90)
+			(at 116.84 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3345,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 101.6 95.25 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3601,7 +3354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 95.25 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +3363,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 101.6 95.25 0)
+			(at 113.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3388,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 130.81 90)
+		(at 149.86 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3644,7 +3397,7 @@
 		(fields_autoplaced yes)
 		(uuid "15947e3c-60e5-4e67-aea4-2bd4c7dc2d50")
 		(property "Reference" "KC8"
-			(at 142.24 129.5399 90)
+			(at 153.67 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3406,7 @@
 			)
 		)
 		(property "Value" "H"
-			(at 142.24 132.0799 90)
+			(at 153.67 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3415,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 130.81 0)
+			(at 149.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3424,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 130.81 0)
+			(at 149.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3433,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 130.81 0)
+			(at 149.86 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3458,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 86.36 90)
+		(at 149.86 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3714,7 +3467,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b9d1bac-bdd2-4efc-ae98-827e9231e878")
 		(property "Reference" "KC12"
-			(at 142.24 85.0899 90)
+			(at 153.67 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3476,7 @@
 			)
 		)
 		(property "Value" "ENTER"
-			(at 142.24 87.6299 90)
+			(at 153.67 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3485,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 86.36 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3494,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 86.36 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3503,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 86.36 0)
+			(at 149.86 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3528,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 242.57 116.84 0)
+		(at 220.98 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3784,7 +3537,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c470c15-112d-4195-aae4-3dfe86280a25")
 		(property "Reference" "J3"
-			(at 245.11 116.8399 0)
+			(at 223.52 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3546,7 @@
 			)
 		)
 		(property "Value" "2PIN"
-			(at 245.11 119.3799 0)
+			(at 223.52 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3555,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 242.57 116.84 0)
+			(at 220.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3811,7 +3564,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 116.84 0)
+			(at 220.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,7 +3573,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 242.57 116.84 0)
+			(at 220.98 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3598,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 101.6 68.58 90)
+		(at 113.03 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3854,7 +3607,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e08b920-1d80-4272-9476-6468e9fee5be")
 		(property "Reference" "KE4"
-			(at 105.41 67.3099 90)
+			(at 116.84 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +3616,7 @@
 			)
 		)
 		(property "Value" ","
-			(at 105.41 69.8499 90)
+			(at 116.84 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +3625,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 101.6 68.58 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3634,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 68.58 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +3643,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 101.6 68.58 0)
+			(at 113.03 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3668,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 90.17 130.81 90)
+		(at 101.6 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3924,7 +3677,7 @@
 		(fields_autoplaced yes)
 		(uuid "21871f7c-1a68-49ee-834d-4e8fcc5cd5ef")
 		(property "Reference" "KA8"
-			(at 93.98 129.5399 90)
+			(at 105.41 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3933,7 +3686,7 @@
 			)
 		)
 		(property "Value" "6"
-			(at 93.98 132.0799 90)
+			(at 105.41 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3695,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 90.17 130.81 0)
+			(at 101.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 130.81 0)
+			(at 101.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3713,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 90.17 130.81 0)
+			(at 101.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +3738,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 95.25 90)
+		(at 127 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3994,7 +3747,7 @@
 		(fields_autoplaced yes)
 		(uuid "225963f2-f3b4-46d8-8edb-0228b364f7b4")
 		(property "Reference" "KD1"
-			(at 119.38 93.9799 90)
+			(at 130.81 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +3756,7 @@
 			)
 		)
 		(property "Value" "CAPS SHIFT"
-			(at 119.38 96.5199 90)
+			(at 130.81 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +3765,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 95.25 0)
+			(at 127 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +3774,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 95.25 0)
+			(at 127 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +3783,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 95.25 0)
+			(at 127 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +3808,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 153.67 113.03 90)
+		(at 165.1 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4064,7 +3817,7 @@
 		(fields_autoplaced yes)
 		(uuid "239ffd20-6902-4dcf-9630-12a74d4369b2")
 		(property "Reference" "KD9"
-			(at 157.48 111.7599 90)
+			(at 168.91 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +3826,7 @@
 			)
 		)
 		(property "Value" "M"
-			(at 157.48 114.2999 90)
+			(at 168.91 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +3835,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 153.67 113.03 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +3844,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 113.03 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +3853,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 153.67 113.03 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +3878,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 101.6 77.47 90)
+		(at 113.03 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4134,7 +3887,7 @@
 		(fields_autoplaced yes)
 		(uuid "289dc8d7-21bf-4479-a1db-bcacc3a556b4")
 		(property "Reference" "KE5"
-			(at 105.41 76.1999 90)
+			(at 116.84 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +3896,7 @@
 			)
 		)
 		(property "Value" "."
-			(at 105.41 78.7399 90)
+			(at 116.84 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4152,7 +3905,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 101.6 77.47 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4161,7 +3914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 77.47 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +3923,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 101.6 77.47 0)
+			(at 113.03 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +3948,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 77.47 90)
+		(at 48.26 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4204,7 +3957,7 @@
 		(fields_autoplaced yes)
 		(uuid "29534302-2e31-4eb3-a97f-07f5ed21cf2e")
 		(property "Reference" "KA2"
-			(at 40.64 76.1999 90)
+			(at 52.07 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +3966,7 @@
 			)
 		)
 		(property "Value" "EDIT"
-			(at 40.64 78.7399 90)
+			(at 52.07 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +3975,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 36.83 77.47 0)
+			(at 48.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,7 +3984,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 77.47 0)
+			(at 48.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,7 +3993,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 77.47 0)
+			(at 48.26 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4018,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 121.92 90)
+		(at 63.5 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4274,7 +4027,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c326254-5197-4055-bc92-a74e442f126f")
 		(property "Reference" "KB6"
-			(at 55.88 120.6499 90)
+			(at 67.31 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4036,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 55.88 123.1899 90)
+			(at 67.31 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4045,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 52.07 121.92 0)
+			(at 63.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4301,7 +4054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 121.92 0)
+			(at 63.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,7 +4063,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 121.92 0)
+			(at 63.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4088,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 95.25 90)
+		(at 63.5 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4344,7 +4097,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e2c6433-c5d2-40ff-872d-2ff9bb265887")
 		(property "Reference" "KB3"
-			(at 55.88 93.9799 90)
+			(at 67.31 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4106,7 @@
 			)
 		)
 		(property "Value" "Q"
-			(at 55.88 96.5199 90)
+			(at 67.31 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4115,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 52.07 95.25 0)
+			(at 63.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +4124,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 95.25 0)
+			(at 63.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4133,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 95.25 0)
+			(at 63.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4158,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 113.03 90)
+		(at 48.26 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4414,7 +4167,7 @@
 		(fields_autoplaced yes)
 		(uuid "30cea4c2-1923-448e-b1f2-1b212c27623e")
 		(property "Reference" "KA5"
-			(at 40.64 111.7599 90)
+			(at 52.07 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4176,7 @@
 			)
 		)
 		(property "Value" "3"
-			(at 40.64 114.2999 90)
+			(at 52.07 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4185,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 36.83 113.03 0)
+			(at 48.26 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 113.03 0)
+			(at 48.26 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4450,7 +4203,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 113.03 0)
+			(at 48.26 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +4228,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 90.17 95.25 90)
+		(at 101.6 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4484,7 +4237,7 @@
 		(fields_autoplaced yes)
 		(uuid "31e72717-2f86-4a9c-ae5a-b056d827e949")
 		(property "Reference" "KA12"
-			(at 93.98 93.9799 90)
+			(at 105.41 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4246,7 @@
 			)
 		)
 		(property "Value" "ZERO"
-			(at 93.98 96.5199 90)
+			(at 105.41 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4255,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 90.17 95.25 0)
+			(at 101.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 95.25 0)
+			(at 101.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4273,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 90.17 95.25 0)
+			(at 101.6 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,16 +4298,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 175.26 104.14 90)
+		(at 184.15 96.52 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37c8f3a4-8315-4fda-9030-c8f3b9a9e0a3")
 		(property "Reference" "KE13"
-			(at 179.07 102.8699 90)
+			(at 193.04 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4316,7 @@
 			)
 		)
 		(property "Value" "SYMBOL SHIFT"
-			(at 179.07 105.4099 90)
+			(at 201.93 97.282 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4325,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 175.26 104.14 0)
+			(at 184.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 104.14 0)
+			(at 184.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4343,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 175.26 104.14 0)
+			(at 184.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4368,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 130.81 90)
+		(at 127 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4624,7 +4377,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bda4487-9ca6-4e66-9c39-805a2401d1fc")
 		(property "Reference" "KD6"
-			(at 119.38 129.5399 90)
+			(at 130.81 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,7 +4386,7 @@
 			)
 		)
 		(property "Value" "V"
-			(at 119.38 132.0799 90)
+			(at 130.81 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4395,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 130.81 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4404,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 130.81 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4413,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 130.81 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,35 +4437,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 153.67 95.25 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "421e7557-8f32-4a27-aa30-b2130f72be34")
-		(property "Reference" "KE6"
-			(at 157.48 93.9799 90)
+		(uuid "3c33e674-8865-4230-9b34-c951d80386bd")
+		(property "Reference" "H1"
+			(at 27.94 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SPACE"
-			(at 157.48 96.5199 90)
+		(property "Value" "MountingHole"
+			(at 27.94 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 153.67 95.25 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +4474,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 95.25 0)
+			(at 25.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4d826082-3261-44af-a885-00e0b5b12dc0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 165.1 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "421e7557-8f32-4a27-aa30-b2130f72be34")
+		(property "Reference" "KE6"
+			(at 168.91 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SPACE"
+			(at 168.91 88.8999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
+			(at 165.1 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4730,7 +4547,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 153.67 95.25 0)
+			(at 165.1 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4755,7 +4572,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 68.58 90)
+		(at 63.5 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4764,7 +4581,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b82956b-5990-4f09-873b-b838eea88089")
 		(property "Reference" "KB1"
-			(at 55.88 67.3099 90)
+			(at 67.31 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4590,7 @@
 			)
 		)
 		(property "Value" "TRUE VIDEO"
-			(at 55.88 69.8499 90)
+			(at 67.31 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4782,7 +4599,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 52.07 68.58 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 68.58 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4800,7 +4617,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 68.58 0)
+			(at 63.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4642,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 242.57 106.68 0)
+		(at 222.25 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4834,7 +4651,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d8ac0f8-355a-445a-9e50-e14080c2d997")
 		(property "Reference" "J2"
-			(at 245.11 105.4099 0)
+			(at 224.79 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4660,7 @@
 			)
 		)
 		(property "Value" "BOT"
-			(at 245.11 107.9499 0)
+			(at 224.79 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4669,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 242.57 106.68 0)
+			(at 222.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4678,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 106.68 0)
+			(at 222.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,7 +4687,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 242.57 106.68 0)
+			(at 222.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4721,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 71.12 121.92 90)
+		(at 82.55 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4913,7 +4730,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dcdd91b-4391-4ced-810a-b67f08830f47")
 		(property "Reference" "KC6"
-			(at 74.93 120.6499 90)
+			(at 86.36 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +4739,7 @@
 			)
 		)
 		(property "Value" "F"
-			(at 74.93 123.1899 90)
+			(at 86.36 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4748,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 71.12 121.92 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4757,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 121.92 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4766,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 121.92 0)
+			(at 82.55 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4791,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 121.92 90)
+		(at 48.26 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4983,7 +4800,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ea224a0-50f9-48f2-b87e-65c489486f16")
 		(property "Reference" "KA6"
-			(at 40.64 120.6499 90)
+			(at 52.07 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4809,7 @@
 			)
 		)
 		(property "Value" "4"
-			(at 40.64 123.1899 90)
+			(at 52.07 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +4818,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 36.83 121.92 0)
+			(at 48.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +4827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 121.92 0)
+			(at 48.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5019,7 +4836,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 121.92 0)
+			(at 48.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +4861,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 90.17 104.14 90)
+		(at 101.6 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5053,7 +4870,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ebd903d-bbbf-43e6-8db1-e468a9d79073")
 		(property "Reference" "KA11"
-			(at 93.98 102.8699 90)
+			(at 105.41 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +4879,7 @@
 			)
 		)
 		(property "Value" "9"
-			(at 93.98 105.4099 90)
+			(at 105.41 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +4888,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 90.17 104.14 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +4897,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 104.14 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +4906,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 90.17 104.14 0)
+			(at 101.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,35 +4930,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 90.17 113.03 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "550b75c7-17cc-4955-a8d7-b78d1ed35e18")
-		(property "Reference" "KA10"
-			(at 93.98 111.7599 90)
+		(uuid "504a0c6b-673c-435d-8ecc-7d19a5573f99")
+		(property "Reference" "H2"
+			(at 27.94 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "8"
-			(at 93.98 114.2999 90)
+		(property "Value" "MountingHole"
+			(at 27.94 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 90.17 113.03 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5150,7 +4967,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 113.03 0)
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4d826082-3261-44af-a885-00e0b5b12dc0"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 101.6 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "550b75c7-17cc-4955-a8d7-b78d1ed35e18")
+		(property "Reference" "KA10"
+			(at 105.41 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "8"
+			(at 105.41 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,7 +5040,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 90.17 113.03 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5065,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 71.12 95.25 90)
+		(at 82.55 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5193,7 +5074,7 @@
 		(fields_autoplaced yes)
 		(uuid "56296983-0b6c-4548-9d52-5ae10a87eccf")
 		(property "Reference" "KC3"
-			(at 74.93 93.9799 90)
+			(at 86.36 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5083,7 @@
 			)
 		)
 		(property "Value" "A"
-			(at 74.93 96.5199 90)
+			(at 86.36 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5211,7 +5092,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 71.12 95.25 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 95.25 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5110,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 95.25 0)
+			(at 82.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5135,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 153.67 68.58 90)
+		(at 165.1 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5263,7 +5144,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c0d4f6a-fc51-4f51-843a-016b66e5ca94")
 		(property "Reference" "KE7"
-			(at 157.48 67.3099 90)
+			(at 168.91 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5153,7 @@
 			)
 		)
 		(property "Value" "LEFT"
-			(at 157.48 69.8499 90)
+			(at 168.91 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5162,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 153.67 68.58 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +5171,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 68.58 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +5180,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 153.67 68.58 0)
+			(at 165.1 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5205,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 101.6 130.81 90)
+		(at 113.03 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5333,7 +5214,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e7219c6-f015-4bdd-810b-c4509b4582e5")
 		(property "Reference" "KB8"
-			(at 105.41 129.5399 90)
+			(at 116.84 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5223,7 @@
 			)
 		)
 		(property "Value" "Y"
-			(at 105.41 132.0799 90)
+			(at 116.84 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5232,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 101.6 130.81 0)
+			(at 113.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5241,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 130.81 0)
+			(at 113.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +5250,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 101.6 130.81 0)
+			(at 113.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5275,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 68.58 90)
+		(at 149.86 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5403,7 +5284,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c5db52f-4a84-477c-8b7a-15249a5ae5ef")
 		(property "Reference" "KA13"
-			(at 142.24 67.3099 90)
+			(at 153.67 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5293,7 @@
 			)
 		)
 		(property "Value" "DELETE"
-			(at 142.24 69.8499 90)
+			(at 153.67 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +5302,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 68.58 0)
+			(at 149.86 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5311,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 68.58 0)
+			(at 149.86 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5320,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 68.58 0)
+			(at 149.86 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5345,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 101.6 104.14 90)
+		(at 113.03 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5473,7 +5354,7 @@
 		(fields_autoplaced yes)
 		(uuid "70696b8f-acbb-4b41-b6c0-c82753b70f09")
 		(property "Reference" "KB11"
-			(at 105.41 102.8699 90)
+			(at 116.84 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5363,7 @@
 			)
 		)
 		(property "Value" "O"
-			(at 105.41 105.4099 90)
+			(at 116.84 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5372,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 101.6 104.14 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 104.14 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,7 +5390,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 101.6 104.14 0)
+			(at 113.03 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5533,35 +5414,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 153.67 121.92 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 25.4 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78ee5774-71e2-46c0-8acc-5e18e1484d96")
-		(property "Reference" "KD8"
-			(at 157.48 120.6499 90)
+		(uuid "73acf510-29b6-4572-912f-97fe253ecc88")
+		(property "Reference" "H3"
+			(at 27.94 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "N"
-			(at 157.48 123.1899 90)
+		(property "Value" "MountingHole"
+			(at 27.94 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 153.67 121.92 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 25.4 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5570,7 +5451,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 121.92 0)
+			(at 25.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 25.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4d826082-3261-44af-a885-00e0b5b12dc0"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 165.1 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ee5774-71e2-46c0-8acc-5e18e1484d96")
+		(property "Reference" "KD8"
+			(at 168.91 113.0299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "N"
+			(at 168.91 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5524,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 153.67 121.92 0)
+			(at 165.1 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5549,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 130.81 90)
+		(at 63.5 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5613,7 +5558,7 @@
 		(fields_autoplaced yes)
 		(uuid "7eed033b-7b2e-4fb4-9232-03cc7dff4e16")
 		(property "Reference" "KB7"
-			(at 55.88 129.5399 90)
+			(at 67.31 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5567,7 @@
 			)
 		)
 		(property "Value" "T"
-			(at 55.88 132.0799 90)
+			(at 67.31 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5576,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 52.07 130.81 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5585,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 130.81 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5594,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 130.81 0)
+			(at 63.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5619,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 71.12 113.03 90)
+		(at 82.55 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5683,7 +5628,7 @@
 		(fields_autoplaced yes)
 		(uuid "83cae3e9-40ee-4663-8200-eccef02e6549")
 		(property "Reference" "KC5"
-			(at 74.93 111.7599 90)
+			(at 86.36 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5637,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 74.93 114.2999 90)
+			(at 86.36 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5646,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 71.12 113.03 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 113.03 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5664,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 113.03 0)
+			(at 82.55 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5744,7 +5689,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 130.81 90)
+		(at 48.26 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5753,7 +5698,7 @@
 		(fields_autoplaced yes)
 		(uuid "88180133-827a-4499-8d34-bc89db8434bb")
 		(property "Reference" "KA7"
-			(at 40.64 129.5399 90)
+			(at 52.07 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5707,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at 40.64 132.0799 90)
+			(at 52.07 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5716,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 36.83 130.81 0)
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,7 +5725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 130.81 0)
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5734,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 130.81 0)
+			(at 48.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5759,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 71.12 130.81 90)
+		(at 82.55 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5823,7 +5768,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d809425-a2b4-4925-b073-0041691ad7bb")
 		(property "Reference" "KC7"
-			(at 74.93 129.5399 90)
+			(at 86.36 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +5777,7 @@
 			)
 		)
 		(property "Value" "G"
-			(at 74.93 132.0799 90)
+			(at 86.36 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5786,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 71.12 130.81 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,7 +5795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 130.81 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +5804,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 130.81 0)
+			(at 82.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5883,35 +5828,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 104.14 90)
+		(lib_id "Mechanical:MountingHole")
+		(at 46.99 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "915d0adc-0846-4791-925d-64ab769c7d62")
-		(property "Reference" "KA4"
-			(at 40.64 102.8699 90)
+		(uuid "8fa09d80-328e-4b7d-98f9-7f10f3a2c28e")
+		(property "Reference" "H4"
+			(at 49.53 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "2"
-			(at 40.64 105.4099 90)
+		(property "Value" "MountingHole"
+			(at 49.53 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 36.83 104.14 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 46.99 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5865,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 104.14 0)
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 46.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Spectrum_Next_Keyboard"
+				(path "/4d826082-3261-44af-a885-00e0b5b12dc0"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 48.26 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "915d0adc-0846-4791-925d-64ab769c7d62")
+		(property "Reference" "KA4"
+			(at 52.07 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2"
+			(at 52.07 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
+			(at 48.26 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5938,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 104.14 0)
+			(at 48.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +5963,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 90.17 121.92 90)
+		(at 101.6 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5963,7 +5972,7 @@
 		(fields_autoplaced yes)
 		(uuid "9291761b-056a-48c7-87b1-ae985519f43e")
 		(property "Reference" "KA9"
-			(at 93.98 120.6499 90)
+			(at 105.41 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +5981,7 @@
 			)
 		)
 		(property "Value" "7"
-			(at 93.98 123.1899 90)
+			(at 105.41 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +5990,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 90.17 121.92 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 121.92 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6008,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 90.17 121.92 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6033,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 77.47 90)
+		(at 63.5 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6033,7 +6042,7 @@
 		(fields_autoplaced yes)
 		(uuid "97ae941c-0533-4070-9025-9606773c42ba")
 		(property "Reference" "KB2"
-			(at 55.88 76.1999 90)
+			(at 67.31 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6042,7 +6051,7 @@
 			)
 		)
 		(property "Value" "INV VIDEO"
-			(at 55.88 78.7399 90)
+			(at 67.31 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +6060,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 52.07 77.47 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 77.47 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6078,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 77.47 0)
+			(at 63.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,7 +6103,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 68.58 90)
+		(at 48.26 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6103,7 +6112,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a6dc091-a22d-4bd5-b3bf-7f3b8d2e5c2a")
 		(property "Reference" "KA1"
-			(at 40.64 67.3099 90)
+			(at 52.07 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6121,7 @@
 			)
 		)
 		(property "Value" "BREAK"
-			(at 40.64 69.8499 90)
+			(at 52.07 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6121,7 +6130,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 36.83 68.58 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6130,7 +6139,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 68.58 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6148,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 68.58 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +6173,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 101.6 113.03 90)
+		(at 113.03 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6172,7 +6181,7 @@
 		(dnp no)
 		(uuid "9c69ce8a-af7b-48ff-ac25-bfd3b54fbcd0")
 		(property "Reference" "KB10"
-			(at 104.14 110.49 90)
+			(at 115.57 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6190,7 @@
 			)
 		)
 		(property "Value" "I"
-			(at 105.41 114.2999 90)
+			(at 116.84 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6199,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 101.6 113.03 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 113.03 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +6217,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 101.6 113.03 0)
+			(at 113.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6233,7 +6242,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 68.58 90)
+		(at 127 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6242,7 +6251,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ed81341-cfe8-4f04-9acd-83464e2bfe6b")
 		(property "Reference" "KD2"
-			(at 119.38 67.3099 90)
+			(at 130.81 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6251,7 +6260,7 @@
 			)
 		)
 		(property "Value" "EXTEND MODE"
-			(at 119.38 69.8499 90)
+			(at 130.81 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +6269,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 68.58 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6269,7 +6278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 68.58 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +6287,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 68.58 0)
+			(at 127 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6312,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 71.12 104.14 90)
+		(at 82.55 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6312,7 +6321,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1ddf92a-d4ba-430d-9595-2a44f401750f")
 		(property "Reference" "KC4"
-			(at 74.93 102.8699 90)
+			(at 86.36 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +6330,7 @@
 			)
 		)
 		(property "Value" "S"
-			(at 74.93 105.4099 90)
+			(at 86.36 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +6339,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 71.12 104.14 0)
+			(at 82.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6339,7 +6348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 104.14 0)
+			(at 82.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6357,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 104.14 0)
+			(at 82.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6373,7 +6382,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 90.17 77.47 90)
+		(at 101.6 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6382,7 +6391,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae9d6982-3d26-45b6-9116-826ec7222687")
 		(property "Reference" "KE3"
-			(at 93.98 76.1999 90)
+			(at 105.41 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6391,7 +6400,7 @@
 			)
 		)
 		(property "Value" "\""
-			(at 93.98 78.7399 90)
+			(at 105.41 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6400,7 +6409,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 90.17 77.47 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6409,7 +6418,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 77.47 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6418,7 +6427,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 90.17 77.47 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,7 +6452,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 77.47 90)
+		(at 149.86 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6452,7 +6461,7 @@
 		(fields_autoplaced yes)
 		(uuid "b413d303-0419-45f8-b7e5-a6828e7cd301")
 		(property "Reference" "KE9"
-			(at 142.24 76.1999 90)
+			(at 153.67 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6470,7 @@
 			)
 		)
 		(property "Value" "RIGHT"
-			(at 142.24 78.7399 90)
+			(at 153.67 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6470,7 +6479,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 77.47 0)
+			(at 149.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,7 +6488,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 77.47 0)
+			(at 149.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6488,7 +6497,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 77.47 0)
+			(at 149.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6522,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 95.25 90)
+		(at 149.86 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6522,7 +6531,7 @@
 		(fields_autoplaced yes)
 		(uuid "bada7f37-51b5-485e-8d77-114d518d165a")
 		(property "Reference" "KB13"
-			(at 142.24 93.9799 90)
+			(at 153.67 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6540,7 @@
 			)
 		)
 		(property "Value" "ENTER"
-			(at 142.24 96.5199 90)
+			(at 153.67 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6549,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 95.25 0)
+			(at 149.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6549,7 +6558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 95.25 0)
+			(at 149.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6567,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 95.25 0)
+			(at 149.86 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6592,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 104.14 90)
+		(at 149.86 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6592,7 +6601,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbc637b1-8e6d-4316-b576-d7070174b185")
 		(property "Reference" "KC11"
-			(at 142.24 102.8699 90)
+			(at 153.67 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6601,7 +6610,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 142.24 105.4099 90)
+			(at 153.67 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +6619,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 104.14 0)
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6619,7 +6628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 104.14 0)
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,7 +6637,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 104.14 0)
+			(at 149.86 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6653,7 +6662,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 77.47 90)
+		(at 127 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6662,7 +6671,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd1284f8-b009-44a8-aece-076fb748577b")
 		(property "Reference" "KD10"
-			(at 119.38 76.1999 90)
+			(at 130.81 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +6680,7 @@
 			)
 		)
 		(property "Value" "UP"
-			(at 119.38 78.7399 90)
+			(at 130.81 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6680,7 +6689,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 77.47 0)
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +6698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 77.47 0)
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +6707,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 77.47 0)
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6732,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 36.83 95.25 90)
+		(at 48.26 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6731,7 +6740,7 @@
 		(dnp no)
 		(uuid "c190586f-14b9-47de-a874-df75c99fa3a4")
 		(property "Reference" "KA3"
-			(at 40.64 93.9799 90)
+			(at 52.07 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6740,7 +6749,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 40.64 96.5199 90)
+			(at 52.07 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6749,7 +6758,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 36.83 95.25 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6758,7 +6767,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 95.25 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6767,7 +6776,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 36.83 95.25 0)
+			(at 48.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6801,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 113.03 90)
+		(at 149.86 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6801,7 +6810,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1d45986-7b48-4770-a8bf-2cd8ccd16c3b")
 		(property "Reference" "KC10"
-			(at 142.24 111.7599 90)
+			(at 153.67 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +6819,7 @@
 			)
 		)
 		(property "Value" "K"
-			(at 142.24 114.2999 90)
+			(at 153.67 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6828,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 113.03 0)
+			(at 149.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 113.03 0)
+			(at 149.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +6846,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 113.03 0)
+			(at 149.86 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6862,7 +6871,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 153.67 104.14 90)
+		(at 165.1 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6871,7 +6880,7 @@
 		(fields_autoplaced yes)
 		(uuid "c946eda5-cff8-4eaf-8131-e5ee48bc2fdf")
 		(property "Reference" "KE1"
-			(at 157.48 102.8699 90)
+			(at 168.91 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6880,7 +6889,7 @@
 			)
 		)
 		(property "Value" "SYMBOL SHIFT"
-			(at 157.48 105.4099 90)
+			(at 168.91 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6898,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 153.67 104.14 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +6907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 104.14 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6916,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 153.67 104.14 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6941,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 121.92 90)
+		(at 127 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6941,7 +6950,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbd71d99-8672-4006-a732-0f9164a64ff7")
 		(property "Reference" "KD5"
-			(at 119.38 120.6499 90)
+			(at 130.81 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,7 +6959,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 119.38 123.1899 90)
+			(at 130.81 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6959,7 +6968,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 121.92 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,7 +6977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 121.92 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6977,7 +6986,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 121.92 0)
+			(at 127 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7002,7 +7011,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 71.12 77.47 90)
+		(at 82.55 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7011,7 +7020,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc95d46c-a84f-46df-9bb2-e531e52858d4")
 		(property "Reference" "KC2"
-			(at 74.93 76.1999 90)
+			(at 86.36 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,7 +7029,7 @@
 			)
 		)
 		(property "Value" "GRAPH"
-			(at 74.93 78.7399 90)
+			(at 86.36 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,7 +7038,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 71.12 77.47 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7038,7 +7047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 77.47 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,7 +7056,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 77.47 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7081,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 138.43 121.92 90)
+		(at 149.86 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7081,7 +7090,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0a3d2f5-22d9-4028-9bb5-ccf605e82177")
 		(property "Reference" "KC9"
-			(at 142.24 120.6499 90)
+			(at 153.67 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,7 +7099,7 @@
 			)
 		)
 		(property "Value" "J"
-			(at 142.24 123.1899 90)
+			(at 153.67 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7108,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 138.43 121.92 0)
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7117,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 121.92 0)
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7126,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 138.43 121.92 0)
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7151,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 153.67 130.81 90)
+		(at 165.1 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7151,7 +7160,7 @@
 		(fields_autoplaced yes)
 		(uuid "e262cd54-cd32-41e9-a416-b3c8f18925e9")
 		(property "Reference" "KD7"
-			(at 157.48 129.5399 90)
+			(at 168.91 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7169,7 @@
 			)
 		)
 		(property "Value" "B"
-			(at 157.48 132.0799 90)
+			(at 168.91 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7178,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 153.67 130.81 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 130.81 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7196,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 153.67 130.81 0)
+			(at 165.1 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,7 +7221,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 242.57 86.36 0)
+		(at 182.88 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7221,7 +7230,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8dca404-e3fb-4b77-8a86-b33ee2b0a438")
 		(property "Reference" "J1"
-			(at 245.11 86.3599 0)
+			(at 185.42 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7230,7 +7239,7 @@
 			)
 		)
 		(property "Value" "TOP"
-			(at 245.11 88.8999 0)
+			(at 185.42 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7248,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 242.57 86.36 0)
+			(at 182.88 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7257,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 86.36 0)
+			(at 182.88 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7266,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 242.57 86.36 0)
+			(at 182.88 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +7309,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 86.36 90)
+		(at 127 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7309,7 +7318,7 @@
 		(fields_autoplaced yes)
 		(uuid "e98523fc-df07-434a-a2b4-77ca9c537ea0")
 		(property "Reference" "KD11"
-			(at 119.38 85.0899 90)
+			(at 130.81 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7327,7 @@
 			)
 		)
 		(property "Value" "CAPS SHIFT"
-			(at 119.38 87.6299 90)
+			(at 130.81 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7336,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 86.36 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7345,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 86.36 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7354,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 86.36 0)
+			(at 127 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7370,7 +7379,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 52.07 113.03 90)
+		(at 63.5 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7379,7 +7388,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea7bfe0a-5a0b-4a96-ba44-d63fe0e4e77c")
 		(property "Reference" "KB5"
-			(at 55.88 111.7599 90)
+			(at 67.31 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7388,7 +7397,7 @@
 			)
 		)
 		(property "Value" "E"
-			(at 55.88 114.2999 90)
+			(at 67.31 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7397,7 +7406,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 52.07 113.03 0)
+			(at 63.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,7 +7415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 113.03 0)
+			(at 63.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7424,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 52.07 113.03 0)
+			(at 63.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7440,7 +7449,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 101.6 121.92 90)
+		(at 113.03 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7449,7 +7458,7 @@
 		(fields_autoplaced yes)
 		(uuid "edd3910b-b143-4ced-85c7-01da4c08bf2f")
 		(property "Reference" "KB9"
-			(at 105.41 120.6499 90)
+			(at 116.84 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7467,7 @@
 			)
 		)
 		(property "Value" "U"
-			(at 105.41 123.1899 90)
+			(at 116.84 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7467,7 +7476,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 101.6 121.92 0)
+			(at 113.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7476,7 +7485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 121.92 0)
+			(at 113.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7494,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 101.6 121.92 0)
+			(at 113.03 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,7 +7519,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 71.12 68.58 90)
+		(at 82.55 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7519,7 +7528,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3306167-5e29-40f8-8a19-f30a16b66f79")
 		(property "Reference" "KC1"
-			(at 74.93 67.3099 90)
+			(at 86.36 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7537,7 @@
 			)
 		)
 		(property "Value" "CAPS LOCK"
-			(at 74.93 69.8499 90)
+			(at 86.36 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7546,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 71.12 68.58 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7555,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 68.58 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7555,7 +7564,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 71.12 68.58 0)
+			(at 82.55 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7580,7 +7589,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 153.67 77.47 90)
+		(at 165.1 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7589,7 +7598,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3cab0da-8e78-4c39-974c-e4ca50fe3f7a")
 		(property "Reference" "KE8"
-			(at 157.48 76.1999 90)
+			(at 168.91 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +7607,7 @@
 			)
 		)
 		(property "Value" "DOWN"
-			(at 157.48 78.7399 90)
+			(at 168.91 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +7616,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 153.67 77.47 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,7 +7625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 77.47 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7625,7 +7634,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 153.67 77.47 0)
+			(at 165.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +7659,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_45deg")
-		(at 115.57 104.14 90)
+		(at 127 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7659,7 +7668,7 @@
 		(fields_autoplaced yes)
 		(uuid "f82291e3-41b6-463e-962b-d362b2057bae")
 		(property "Reference" "KD3"
-			(at 119.38 102.8699 90)
+			(at 130.81 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7677,7 @@
 			)
 		)
 		(property "Value" "Z"
-			(at 119.38 105.4099 90)
+			(at 130.81 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7677,7 +7686,7 @@
 			)
 		)
 		(property "Footprint" "Clueless_Engineer:SW_Gateron_LowProfile_THT"
-			(at 115.57 104.14 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7686,7 +7695,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 104.14 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7695,7 +7704,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 115.57 104.14 0)
+			(at 127 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7713,6 +7722,134 @@
 			(project "Spectrum_Next_Keyboard"
 				(path "/4d826082-3261-44af-a885-00e0b5b12dc0"
 					(reference "KD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 46.99 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb76e602-a3de-4213-a6e9-070ba059d7be")
+		(property "Reference" "H5"
+			(at 49.53 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 49.53 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 46.99 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Spectrum_Next_Keyboard"
+				(path "/4d826082-3261-44af-a885-00e0b5b12dc0"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 46.99 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe4767a-392d-4d9c-b6c5-902e5090bdc6")
+		(property "Reference" "H6"
+			(at 49.53 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 49.53 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 46.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 46.99 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Spectrum_Next_Keyboard"
+				(path "/4d826082-3261-44af-a885-00e0b5b12dc0"
+					(reference "H6")
 					(unit 1)
 				)
 			)
