@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZX80 Gaming Keyboard")
-		(date "27-Jun-2025")
+		(date "28-Jun-2025")
 		(rev "C")
 		(company "Brett Hallen")
 		(comment 1 "www.youtube.com/@Brfff")
@@ -928,174 +928,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -1374,26 +1206,6 @@
 		)
 		(uuid "fbe7b90b-706f-47e0-a595-d5426f758414")
 	)
-	(text_box "Dedicated DELETE key\n[SHIFT] + [0]"
-		(exclude_from_sim no)
-		(at 204.47 17.78 0)
-		(size 41.91 31.75)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b643f164-451e-4f3a-8297-ed70169a9b5e")
-	)
 	(text_box "Dedicated cursor keys\n[5], [6], [7], [8]"
 		(exclude_from_sim no)
 		(at 82.55 20.32 0)
@@ -1485,12 +1297,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4436cb78-bdaf-452c-bb1a-e298db8815cc")
-	)
-	(junction
-		(at 226.06 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4651b4c0-3d26-4f19-9542-1408f5d6475a")
 	)
 	(junction
 		(at 134.62 87.63)
@@ -2510,16 +2316,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 35.56) (xy 226.06 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf951d2-da64-442d-a4f7-963c226fe7a7")
-	)
-	(wire
-		(pts
 			(xy 86.36 92.71) (xy 104.14 92.71)
 		)
 		(stroke
@@ -2630,16 +2426,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 35.56) (xy 229.87 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff273e8-c01d-4cc7-8254-97fd0e4eef43")
-	)
-	(wire
-		(pts
 			(xy 167.64 106.68) (xy 167.64 125.73)
 		)
 		(stroke
@@ -2737,28 +2523,6 @@
 			(type default)
 		)
 		(uuid "fbf8dc99-96c2-46ae-acfa-29fe15928e9b")
-	)
-	(global_label "A8"
-		(shape input)
-		(at 229.87 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "06e94a9f-75fc-492a-9633-7c4a5e3f456b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.1533 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "COL2"
 		(shape input)
@@ -3508,28 +3272,6 @@
 			)
 		)
 	)
-	(global_label "COL5"
-		(shape input)
-		(at 220.98 30.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f74573dc-29f8-41a0-9f2f-c570ab351ede")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.1567 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COL1"
 		(shape input)
 		(at 92.71 35.56 180)
@@ -3570,28 +3312,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "A12"
-		(shape input)
-		(at 233.68 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc6210c7-3a6d-4b9f-85e0-d7ce9488e6f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.1728 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5184,93 +4904,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 229.87 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80be6ba9-6fb8-4893-8900-706b7954644e")
-		(property "Reference" "D1"
-			(at 228.6 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 227.33 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 229.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 229.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 229.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 229.87 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8480e5fe-57a1-433d-af93-88aecda1bd85")
-		)
-		(pin "2"
-			(uuid "33a47529-b455-4527-98bf-2ae88529be9d")
-		)
-		(instances
-			(project ""
-				(path "/3757cb76-c3de-4d54-af41-21871afa6750"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 119.38 90.17 0)
 		(unit 1)
@@ -6209,74 +5842,6 @@
 			(project "ZX80_Keyboard_Cherry"
 				(path "/3757cb76-c3de-4d54-af41-21871afa6750"
 					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_45deg")
-		(at 223.52 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "baff1fb4-e976-4be9-97db-5a42095bd2c5")
-		(property "Reference" "SW45"
-			(at 223.52 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RUBOUT"
-			(at 223.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
-			(at 223.52 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 223.52 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bed09f3-b836-4578-882f-9ec228296630")
-		)
-		(pin "1"
-			(uuid "cfb09bcc-30a0-43c0-a88e-06f2002b2a06")
-		)
-		(instances
-			(project "ZX80_Gaming_Keyboard"
-				(path "/3757cb76-c3de-4d54-af41-21871afa6750"
-					(reference "SW45")
 					(unit 1)
 				)
 			)

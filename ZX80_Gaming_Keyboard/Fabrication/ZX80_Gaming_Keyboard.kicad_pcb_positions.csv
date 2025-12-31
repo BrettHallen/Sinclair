@@ -1,10 +1,8 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
-304.8486,-117.5756,-90.0,top,D1,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
-309.9286,-117.5756,-90.0,top,D2,,,D_DO-35_SOD27_P7.62mm_Horizontal,1N4148,tht
 226.5036,-104.5956,90.0,top,J1,,,PinHeader_1x05_P2.54mm_Vertical,KB1,tht
-241.7436,-104.5956,90.0,top,J2,,,PinHeader_1x08_P2.54mm_Vertical,KB2,tht
-349.2986,-159.4856,180.0,top,J3,,,PinHeader_1x03_P2.54mm_Vertical,SPACE_ZERO,tht
-346.7586,-146.7856,0.0,top,J4,,,PinHeader_2x02_P2.54mm_Vertical,ZX_ACE,tht
+244.2836,-104.5956,90.0,top,J2,,,PinHeader_1x08_P2.54mm_Vertical,KB2,tht
+343.3436,-104.5956,90.0,top,J3,,,PinHeader_1x03_P2.54mm_Vertical,SPACE_ZERO,tht
+333.1836,-104.5956,0.0,top,J4,,,PinHeader_2x02_P2.54mm_Vertical,ZX_ACE,tht
 102.9186,-115.0356,0.0,top,SW1,,,SW_Cherry_MX_1.00u_PCB,1,tht
 274.3686,-115.0356,0.0,top,SW10,,,SW_Cherry_MX_1.00u_PCB,0,tht
 112.6686,-134.0856,0.0,top,SW11,,,SW_Cherry_MX_1.00u_PCB,Q,tht
@@ -44,7 +42,6 @@
 312.4686,-172.1856,0.0,top,SW42,,,SW_Cherry_MX_1.00u_PCB,DOWN,tht
 312.4686,-153.1356,0.0,top,SW43,,,SW_Cherry_MX_1.00u_PCB,UP,tht
 331.5186,-172.1856,0.0,top,SW44,,,SW_Cherry_MX_1.00u_PCB,RIGHT,tht
-293.4637,-115.0356,0.0,top,SW45,,,SW_Cherry_MX_1.00u_PCB,RUBOUT,tht
 179.1186,-115.0356,0.0,top,SW5,,,SW_Cherry_MX_1.00u_PCB,5,tht
 198.1686,-115.0356,0.0,top,SW6,,,SW_Cherry_MX_1.00u_PCB,6,tht
 217.2186,-115.0356,0.0,top,SW7,,,SW_Cherry_MX_1.00u_PCB,7,tht
