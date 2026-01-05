@@ -1,0 +1,76 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+207.929086,-70.922101,-90.0,top,J1,,,PinHeader_1x08_P2.54mm_Vertical,TOP,tht
+122.839086,-70.922101,90.0,top,J2,,,PinHeader_1x05_P2.54mm_Vertical,BOT,tht
+285.399086,-70.922101,-90.0,top,J3,,,PinHeader_1x02_P2.54mm_Vertical,2PIN,tht
+64.319086,-84.882101,0.0,top,KA1,,,SW_Gateron_LowProfile_THT,BREAK,tht
+235.769086,-84.882101,0.0,top,KA10,,,SW_Gateron_LowProfile_THT,8,tht
+254.819086,-84.882101,0.0,top,KA11,,,SW_Gateron_LowProfile_THT,9,tht
+273.869086,-84.882101,0.0,top,KA12,,,SW_Gateron_LowProfile_THT,ZERO,tht
+297.686486,-84.881701,0.0,top,KA13,,,SW_Gateron_LowProfile_THT,DELETE,tht
+83.369086,-84.882101,0.0,top,KA2,,,SW_Gateron_LowProfile_THT,EDIT,tht
+102.419086,-84.882101,0.0,top,KA3,,,SW_Gateron_LowProfile_THT,1,tht
+121.469086,-84.882101,0.0,top,KA4,,,SW_Gateron_LowProfile_THT,2,tht
+140.519086,-84.882101,0.0,top,KA5,,,SW_Gateron_LowProfile_THT,3,tht
+159.569086,-84.882101,0.0,top,KA6,,,SW_Gateron_LowProfile_THT,4,tht
+178.619086,-84.882101,0.0,top,KA7,,,SW_Gateron_LowProfile_THT,5,tht
+197.669086,-84.882101,0.0,top,KA8,,,SW_Gateron_LowProfile_THT,6,tht
+216.719086,-84.882101,0.0,top,KA9,,,SW_Gateron_LowProfile_THT,7,tht
+66.700386,-103.932101,0.0,top,KB1,,,SW_Gateron_LowProfile_THT,TRUE VIDEO,tht
+245.294086,-103.932101,0.0,top,KB10,,,SW_Gateron_LowProfile_THT,I,tht
+264.344086,-103.932101,0.0,top,KB11,,,SW_Gateron_LowProfile_THT,O,tht
+283.394086,-103.932101,0.0,top,KB12,,,SW_Gateron_LowProfile_THT,P,tht
+295.305186,-122.982501,0.0,top,KB13,,,SW_Gateron_LowProfile_THT,ENTER,tht
+90.512886,-103.932101,0.0,top,KB2,,,SW_Gateron_LowProfile_THT,INV VIDEO,tht
+111.944086,-103.932101,0.0,top,KB3,,,SW_Gateron_LowProfile_THT,Q,tht
+130.994086,-103.932101,0.0,top,KB4,,,SW_Gateron_LowProfile_THT,W,tht
+150.044086,-103.932101,0.0,top,KB5,,,SW_Gateron_LowProfile_THT,E,tht
+169.094086,-103.932101,0.0,top,KB6,,,SW_Gateron_LowProfile_THT,R,tht
+188.144086,-103.932101,0.0,top,KB7,,,SW_Gateron_LowProfile_THT,T,tht
+207.194086,-103.932101,0.0,top,KB8,,,SW_Gateron_LowProfile_THT,Y,tht
+226.244086,-103.932101,0.0,top,KB9,,,SW_Gateron_LowProfile_THT,U,tht
+69.081686,-122.982501,0.0,top,KC1,,,SW_Gateron_LowProfile_THT,CAPS LOCK,tht
+250.056686,-122.982101,0.0,top,KC10,,,SW_Gateron_LowProfile_THT,K,tht
+269.106686,-122.982101,0.0,top,KC11,,,SW_Gateron_LowProfile_THT,L,tht
+302.449086,-103.932101,0.0,top,KC12,,,SW_Gateron_LowProfile_THT,ENTER,tht
+95.275486,-122.982101,0.0,top,KC2,,,SW_Gateron_LowProfile_THT,GRAPH,tht
+116.706686,-122.982101,0.0,top,KC3,,,SW_Gateron_LowProfile_THT,A,tht
+135.756686,-122.982101,0.0,top,KC4,,,SW_Gateron_LowProfile_THT,S,tht
+154.806686,-122.982101,0.0,top,KC5,,,SW_Gateron_LowProfile_THT,D,tht
+173.856686,-122.982101,0.0,top,KC6,,,SW_Gateron_LowProfile_THT,F,tht
+192.906686,-122.982101,0.0,top,KC7,,,SW_Gateron_LowProfile_THT,G,tht
+211.956686,-122.982101,0.0,top,KC8,,,SW_Gateron_LowProfile_THT,H,tht
+231.006686,-122.982101,0.0,top,KC9,,,SW_Gateron_LowProfile_THT,J,tht
+73.844286,-142.032101,0.0,top,KD1,,,SW_Gateron_LowProfile_THT,CAPS SHIFT,tht
+259.581786,-142.032101,0.0,top,KD10,,,SW_Gateron_LowProfile_THT,UP,tht
+290.542586,-142.032901,0.0,top,KD11,,,SW_Gateron_LowProfile_THT,CAPS SHIFT,tht
+104.800486,-142.032101,0.0,top,KD2,,,SW_Gateron_LowProfile_THT,EXTEND MODE,tht
+126.231786,-142.032101,0.0,top,KD3,,,SW_Gateron_LowProfile_THT,Z,tht
+145.281786,-142.032101,0.0,top,KD4,,,SW_Gateron_LowProfile_THT,X,tht
+164.331786,-142.032101,0.0,top,KD5,,,SW_Gateron_LowProfile_THT,C,tht
+183.381786,-142.032101,0.0,top,KD6,,,SW_Gateron_LowProfile_THT,V,tht
+202.431786,-142.032101,0.0,top,KD7,,,SW_Gateron_LowProfile_THT,B,tht
+221.481786,-142.032101,0.0,top,KD8,,,SW_Gateron_LowProfile_THT,N,tht
+240.531786,-142.032101,0.0,top,KD9,,,SW_Gateron_LowProfile_THT,M,tht
+64.319086,-161.082101,0.0,top,KE1,,,SW_Gateron_LowProfile_THT,SYMBOL SHIFT,tht
+211.959686,-161.083301,0.0,top,KE10,,,SW_Gateron_LowProfile_THT,SPACE,tht
+300.067786,-161.083301,0.0,top,KE13,,,SW_Gateron_LowProfile_THT,SYMBOL SHIFT,tht
+83.369086,-161.082101,0.0,top,KE2,,,SW_Gateron_LowProfile_THT,;,tht
+102.419086,-161.082101,0.0,top,KE3,,,SW_Gateron_LowProfile_THT,"""",tht
+121.469086,-161.082101,0.0,top,KE4,,,SW_Gateron_LowProfile_THT,",",tht
+140.519086,-161.082101,0.0,top,KE5,,,SW_Gateron_LowProfile_THT,.,tht
+171.477586,-161.083301,0.0,top,KE6,,,SW_Gateron_LowProfile_THT,SPACE,tht
+240.531786,-161.082101,0.0,top,KE7,,,SW_Gateron_LowProfile_THT,LEFT,tht
+259.585686,-161.083301,0.0,top,KE8,,,SW_Gateron_LowProfile_THT,DOWN,tht
+278.636086,-161.083301,0.0,top,KE9,,,SW_Gateron_LowProfile_THT,RIGHT,tht
+331.024686,-142.032901,0.0,top,NP1,,,SW_Gateron_LowProfile_THT,1,tht
+331.024686,-161.083301,0.0,top,NP10,,,SW_Gateron_LowProfile_THT,0,tht
+350.075086,-161.083301,0.0,top,NP11,,,SW_Gateron_LowProfile_THT,.,tht
+369.125486,-161.083301,0.0,top,NP12,,,SW_Gateron_LowProfile_THT,ENTER,tht
+350.075086,-142.032901,0.0,top,NP2,,,SW_Gateron_LowProfile_THT,2,tht
+369.125486,-142.032901,0.0,top,NP3,,,SW_Gateron_LowProfile_THT,3,tht
+331.024686,-122.982501,0.0,top,NP4,,,SW_Gateron_LowProfile_THT,4,tht
+350.075086,-122.982501,0.0,top,NP5,,,SW_Gateron_LowProfile_THT,5,tht
+369.125486,-122.982501,0.0,top,NP6,,,SW_Gateron_LowProfile_THT,6,tht
+331.024686,-103.932101,0.0,top,NP7,,,SW_Gateron_LowProfile_THT,7,tht
+350.075086,-103.932101,0.0,top,NP8,,,SW_Gateron_LowProfile_THT,8,tht
+369.125486,-103.932101,0.0,top,NP9,,,SW_Gateron_LowProfile_THT,9,tht

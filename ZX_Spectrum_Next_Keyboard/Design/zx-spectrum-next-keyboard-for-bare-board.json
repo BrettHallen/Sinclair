@@ -1,15 +1,25 @@
 [
+  {
+    "name": "ZX Spectrum Next Keyboard for Bare Board",
+    "author": "Brett Hallen",
+    "switchMount": "cherry",
+    "switchBrand": "cherry",
+    "pcb": true
+  },
   [
     {
+      "c": "#E44E2D",
       "a": 7,
       "f": 2
     },
     "BREAK",
     {
+      "c": "#FDF18D",
       "f": 3
     },
     "EDIT",
     {
+      "c": "#cccccc",
       "a": 5
     },
     "!\n\n\n\n\n\n1",
@@ -23,13 +33,15 @@
     ")\n\n\n\n\n\n9",
     "_\n\n\n\n\n\n0",
     {
+      "c": "#9BD377",
       "a": 7,
-      "w": 1.25
+      "w": 1.5
     },
     "DEL"
   ],
   [
     {
+      "c": "#FDF18D",
       "a": 5,
       "w": 1.25
     },
@@ -39,6 +51,7 @@
     },
     "INV\n\n\n\n\n\nVIDEO",
     {
+      "c": "#cccccc",
       "a": 7
     },
     "Q",
@@ -50,19 +63,35 @@
     "U",
     "I",
     "O",
-    "P"
+    "P",
+    {
+      "c": "#33D8FD"
+    },
+    "",
+    {
+      "x": 0.5,
+      "c": "#cccccc"
+    },
+    "7",
+    "8",
+    "9"
   ],
   [
     {
+      "c": "#9BD377",
       "a": 5,
       "w": 1.5
     },
     "CAPS\n\n\n\n\n\nLOCK",
     {
+      "c": "#FDF18D",
       "a": 7,
       "w": 1.25
     },
     "GRAPH",
+    {
+      "c": "#cccccc"
+    },
     "A",
     "S",
     "D",
@@ -73,20 +102,33 @@
     "K",
     "L",
     {
-      "w": 1.5
+      "c": "#33D8FD",
+      "w": 1.75
     },
-    "ENTER"
+    "ENTER",
+    {
+      "x": 0.5,
+      "c": "#cccccc"
+    },
+    "4",
+    "5",
+    "6"
   ],
   [
     {
+      "c": "#9BD377",
       "a": 5,
       "w": 2
     },
     "CAPS\n\n\n\n\n\nSHIFT",
     {
+      "c": "#FDF18D",
       "w": 1.25
     },
     "EXT\n\n\n\n\n\nMODE",
+    {
+      "c": "#cccccc"
+    },
     "Z",
     "X",
     "C",
@@ -96,13 +138,27 @@
     "M",
     "UP",
     {
-      "w": 2
+      "c": "#9BD377",
+      "w": 2.25
     },
-    "CAPS\n\n\n\n\n\nSHIFT"
+    "CAPS\n\n\n\n\n\nSHIFT",
+    {
+      "x": 0.5,
+      "c": "#cccccc",
+      "a": 7
+    },
+    "1",
+    "2",
+    "3"
   ],
   [
+    {
+      "c": "#9BD377",
+      "a": 5
+    },
     "SYMB\n\n\n\n\n\nSHIFT",
     {
+      "c": "#cccccc",
       "a": 7
     },
     ";",
@@ -110,15 +166,32 @@
     ",",
     ".",
     {
-      "w": 4.25
+      "w": 2.25
+    },
+    "",
+    {
+      "w": 2
     },
     "",
     "LEFT",
     "DOWN",
     "RIGHT",
     {
-      "a": 5
+      "c": "#9BD377",
+      "a": 5,
+      "w": 1.25
     },
-    "SYMB\n\n\n\n\n\nSHIFT"
+    "SYMB\n\n\n\n\n\nSHIFT",
+    {
+      "x": 0.5,
+      "c": "#cccccc",
+      "a": 7
+    },
+    "0",
+    ".",
+    {
+      "c": "#33D8FD"
+    },
+    "ENTER"
   ]
 ]
