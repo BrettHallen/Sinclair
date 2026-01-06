@@ -1,7 +1,7 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
-207.929086,-70.922101,-90.0,top,J1,,,PinHeader_1x08_P2.54mm_Vertical,TOP,tht
+190.047601,-71.005701,90.0,top,J1,,,PinHeader_1x08_P2.54mm_Vertical,TOP,tht
 122.839086,-70.922101,90.0,top,J2,,,PinHeader_1x05_P2.54mm_Vertical,BOT,tht
-285.399086,-70.922101,-90.0,top,J3,,,PinHeader_1x02_P2.54mm_Vertical,2PIN,tht
+282.656001,-71.056501,90.0,top,J3,,,PinHeader_1x02_P2.54mm_Vertical,2PIN,tht
 64.319086,-84.882101,0.0,top,KA1,,,SW_Gateron_LowProfile_THT,BREAK,tht
 235.769086,-84.882101,0.0,top,KA10,,,SW_Gateron_LowProfile_THT,8,tht
 254.819086,-84.882101,0.0,top,KA11,,,SW_Gateron_LowProfile_THT,9,tht
