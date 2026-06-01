@@ -1,0 +1,9 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+J1,1,Conn_02x04_Odd_Even,PinHeader_2x04_P2.54mm_Vertical,,,,tht,"Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+J2,1,ZX/ACE Switch,PinHeader_2x02_P2.54mm_Vertical,,,,tht,"Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+SW1,1,5/LEFT,SW_PUSH-12mm,,,,tht,"Push button switch, normally open, two pins, 45° tilted"
+SW2,1,7/UP,SW_PUSH-12mm,,,,tht,"Push button switch, normally open, two pins, 45° tilted"
+SW3,1,6/DOWN,SW_PUSH-12mm,,,,tht,"Push button switch, normally open, two pins, 45° tilted"
+SW4,1,8/RIGHT,SW_PUSH-12mm,,,,tht,"Push button switch, normally open, two pins, 45° tilted"
+SW5,1,ZERO,SW_PUSH-12mm,,,,tht,"Push button switch, normally open, two pins, 45° tilted"
+SW6,1,SPACE,SW_PUSH-12mm,,,,tht,"Push button switch, normally open, two pins, 45° tilted"
