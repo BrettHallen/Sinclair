@@ -41,11 +41,7 @@ Recreating a DIY centronics interface from German computer magazine c't.<br>
 17-Sept-2023: Completed it seems, but not yet tested
 
 # [ZX81 RAM Upgrade](/ZX81_RAM_Upgrade)
-Yes, yes, it's been done many times before.  Planning a few different versions: 16KB for standard ZX81/TS1000, 32KB with vLA1, 32KB with own PLD.
-
-## Status
-10-Sept-2023: Designed & tested<br>
-22-May-2025: Don't like the original design, will re-design<br>
+Yes, yes, it's been done many times before.<br>
 
 # [Z88 Serial Port Converter (DE9-to-DB25)](/Z88_Serial_DE9-to-DB25)
 I'm finally getting my hands on a Cambridge Computers Z88.  I realised that the [Universal Backpack Drive (UBPD)](https://www.soigeneris.com/universal-backpack-drive) I have for the NEC-PC8201A will also work on the Z88 but requires a converter board.  It's possible to order one from Soigeneris when you order a UBPD and there is an existing design available on [Github](https://github.com/bkw777/Z88_RS232), but I thought I'd also have a crack at it.
