@@ -1,0 +1,4 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,KiLib_Generator
+J1,1,Address Expansion,PinHeader_1x05_P2.54mm_Vertical,,,,tht,"Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)",connector/pin_header_socket
+J2,1,ZX81 RAM Socket,DIP-28_W15.24mm_Socket,,,,tht,"Generic connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",package/DIP/legacy
+U1,1,32KB SRAM,DIP-28_W15.24mm,,,,tht,"32Kx8 bit Low Power CMOS Static RAM, 55/70ns, DIP-28",package/DIP/legacy
