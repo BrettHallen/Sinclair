@@ -1,6 +1,10 @@
 ﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
-151.812815,-89.74165,90.0,top,J1,,,PinHeader_2x04_P2.54mm_Vertical,Conn_02x04_Odd_Even,tht
+92.312815,-84.70165,0.0,top,H1,,,MountingHole_3.2mm_M3_DIN965,MountingHole,tht
+182.312815,-84.70165,0.0,top,H2,,,MountingHole_3.2mm_M3_DIN965,MountingHole,tht
+180.312815,-123.70165,0.0,top,H3,,,MountingHole_3.2mm_M3_DIN965,MountingHole,tht
+94.312815,-123.70165,0.0,top,H4,,,MountingHole_3.2mm_M3_DIN965,MountingHole,tht
 168.957815,-87.20165,0.0,top,J2,,,PinHeader_2x02_P2.54mm_Vertical,ZX/ACE Switch,tht
+137.312815,-82.24415,180.0,top,J3,,,DSUB-9_Socket_EdgeMount_P2.77mm,DE9_Socket,smt
 94.125631,-108.15165,45.0,top,SW1,,,SW_PUSH-12mm,5/LEFT,tht
 106.125631,-96.312815,45.0,top,SW2,,,SW_PUSH-12mm,7/UP,tht
 105.125631,-119.15165,45.0,top,SW3,,,SW_PUSH-12mm,6/DOWN,tht
