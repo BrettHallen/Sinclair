@@ -1,0 +1,4 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+78.74,-44.45,0.0,top,J1,,,PinHeader_1x05_P2.54mm_Vertical,Address Expansion,tht
+82.55,-44.45,0.0,top,J2,,,DIP-28_W15.24mm_Socket,ZX81 RAM Socket,tht
+85.09,-44.45,0.0,top,U1,,,DIP-28_W15.24mm,32KB SRAM,tht
