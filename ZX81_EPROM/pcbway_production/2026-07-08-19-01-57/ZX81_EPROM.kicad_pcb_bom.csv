@@ -1,0 +1,5 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,KiLib_Generator
+J3,1,2364 Socket,DIP-28_W15.24mm_Socket,,,,tht,"Generic connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",package/DIP/legacy
+"R1, R2",2,10KΩ,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,,,,smt,Resistor,SMD_2terminal_chip_molded
+SW1,1,Bank Select,SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm,,,,tht,"2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol",button_switch/DIP
+U1,1,27C256,DIP-28_W15.24mm,,,,tht,OTP EPROM 256 KiBit,package/DIP/legacy

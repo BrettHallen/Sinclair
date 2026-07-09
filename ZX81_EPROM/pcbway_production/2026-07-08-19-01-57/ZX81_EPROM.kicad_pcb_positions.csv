@@ -1,0 +1,6 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+123.475,-79.159,0.0,top,J3,,,DIP-28_W15.24mm_Socket,2364 Socket,tht
+132.635,-84.239,0.0,bottom,R1,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,10KΩ,smt
+132.635,-81.699,0.0,bottom,R2,,,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,10KΩ,smt
+126.015,-72.174,0.0,top,SW1,,,SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm,Bank Select,tht
+120.935,-79.159,0.0,top,U1,,,DIP-28_W15.24mm,27C256,tht
