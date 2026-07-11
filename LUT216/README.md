@@ -112,20 +112,20 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 | C6      |                | 1µF (?) [4] | Electrolytic Capacitor       |
 | C7      |                | 100µF       | Electrolytic Capacitor       |
 | C8      |                | 100nF       | Ceramic (104)                |
-| C9 [5]  |                | 68nF        | Ceramic (683)                |
+| C9      |                | 68nF [5]    | Ceramic (683)                |
 | C15     |                | 100µF       | Electrolytic Capacitor       |
-| C16 [5] |                | 68nF        | Ceramic (683)                |
-| C17 [5] |                | 68nF        | Ceramic (683)                |
-| C18 [5] |                | 68nF        | Ceramic (683)                |
-| C19 [5] |                | 68nF        | Ceramic (683)                |
-| C20 [5] |                | 68nF        | Ceramic (683)                |
-| C21 [5] |                | 68nF        | Ceramic (683)                |
-| C22 [5] |                | 68nF        | Ceramic (683)                |
-| C23 [5] |                | 68nF        | Ceramic (683)                |
-| C24 [5] |                | 68nF        | Ceramic (683)                |
-| C25 [5] |                | 68nF        | Ceramic (683)                |
-| C26 [5] |                | 68nF        | Ceramic (683)                |
-| C27 [5] |                | 68nF        | Ceramic (683)                |
+| C16     |                | 68nF [5]    | Ceramic (683)                |
+| C17     |                | 68nF [5]    | Ceramic (683)                |
+| C18     |                | 68nF [5]    | Ceramic (683)                |
+| C19     |                | 68nF [5]    | Ceramic (683)                |
+| C20     |                | 68nF [5]    | Ceramic (683)                |
+| C21     |                | 68nF [5]    | Ceramic (683)                |
+| C22     |                | 68nF [5]    | Ceramic (683)                |
+| C23     |                | 68nF [5]    | Ceramic (683)                |
+| C24     |                | 68nF [5]    | Ceramic (683)                |
+| C25     |                | 68nF [5]    | Ceramic (683)                |
+| C26     |                | 68nF [5]    | Ceramic (683)                |
+| C27     |                | 68nF [5]    | Ceramic (683)                |
 | X1      |                | MAB5SH      | 5-pin DIN for joystick       |
 | X2      |                | MAB5SH      | 5-pin DIN for RGB video      |
 | X3      |                | MAB5SH      | 5-pin DIN for tape           |
@@ -158,6 +158,6 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 | 3MΩ       | 1      |
 | **Total** | **56** |
 
-![LUT216 schematic](/LUT216/LUT216SCH.gif)
+![LUT216 schematic](/LUT216/Originals/LUT216SCH.gif)
 
-![LUT216 board layout](/LUT216/LUT216MontMono.png)
+![LUT216 board layout](/LUT216/Originals/LUT216MontMono.png)
