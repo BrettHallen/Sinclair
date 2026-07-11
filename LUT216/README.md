@@ -5,7 +5,7 @@ WORK IN PROGRESS!<br>
 
 The name "LUT216" comes from (I believe):
 - "ЛУТ" (LUT) = Laser-UV Technology (Лазерно-Ультрафиолетовая Технология), the Russian term for the Toner Transfer + UV exposure/photoresist method of DIY PCB production
-- "216" = the КА1515ХМ1-216 [Базового Матричного Кристалла (Basic Matrix Crystal)](https://ru.wikipedia.org/wiki/1515ХМ1) that is the heart of this computer
+- "216" = the КА1515ХМ1-216 [Базового Матричного Кристалла](https://ru.wikipedia.org/wiki/1515ХМ1) (Basic Matrix Crystal) that is the heart of this computer
 
 [Original Page (RU)](https://sblive.narod.ru/ZX-Spectrum/LUT216/LUT216.htm)
 
