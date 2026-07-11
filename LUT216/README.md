@@ -30,9 +30,9 @@ A copy of the original files from Z.A.N.'s page for reference:
 - The default ROM pin combination is designed for installing 27128 or 27512 ROM chips with the Pentagon layout (ROM 27128/27512 pins 1, 27, and 28 are connected to +5V)
 
 ## Western Parts List
-See also: https://elcomps.com/en/a72<br>
+See also [here](https://elcomps.com/en/a72) for a general list of Soviet - Western 74-series ID conversion.<br>
 
-Note! Soviet parts are general 2.5mm pitch and not 2.54mm - this doesn't matter much for smaller ICs but it can cause a problem with larger ICs and with pin headers!<br>
+Note! Soviet parts are generally 2.5mm pitch and not 2.54mm - this doesn't matter much for smaller ICs but it can cause a problem with larger ICs and with pin headers!<br>
 
 All mistakes are mine - I couldn't find a BOM so have generated this from the schematic.<br>
 
@@ -143,9 +143,9 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 
 
 - Note 1: D14 has space for a 28 or 32 pin EPROM and it configured for a 27128 or 27512.  Address lines above A13 are not used.
-- Note 2: The KT-13 (flat plastic) package has pin order B-C-E, if you are using a Western equivalent (i.e. BC337, BC547 or 2N3904) be sure to check the pin order!
+- Note 2: The KT-13 (flat plastic) package has pin order B-C-E, if you are using a Western equivalent (i.e. BC337, BC547 or 2N3904) be sure to check the pin order!  However the Soviet parts seem to be easily available on ebay so I'd just source them.
 - Note 3: I suspect this should be R56
-- Note 4: Unspecified on schematic, used oscillator match to your particular crystal (i.e. 22pF, 220)
+- Note 4: Unspecified on schematic, match the capacitor value to your particular particular crystal (i.e. 22pF, 220)
 - Note 5: Unspecified on schematic, used in reset circuit so assuming 1µF electrolytic
 - Note 6: You could use standard 100nF (104) instead of 68nF for these decoupling capacitors
 - Note 7: This is for the keyboard connector, I think Harting 09170169622 or similar
