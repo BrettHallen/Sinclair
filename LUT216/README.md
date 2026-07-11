@@ -40,7 +40,7 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 |---------|----------------|-------------|------------------------------|
 | D1      | К555ЛН1        | 74LS04      | Hex inverter                 |
 | D2      | К555АП3        | 74LS240     | Octal inverter line driver   |
-| D3      | КА1515ХМ1-216  |             | Basic matrix crystal (ULA)   |
+| D3      | КА1515ХМ1-216  |             | Basic matrix crystal (= ULA) |
 | D4      | К561ЛН2        | CD4049      | CMOS hex inverter            |
 | D5      | КР1858ВМ1      | Z80         | CPU                          |
 | D6      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
