@@ -39,11 +39,11 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 | X1    |               | MAB5SH     | 5-pin DIN for joystick     |
 | X2    |               | MAB5SH     | 5-pin DIN for RGB video    |
 | X3    |               | MAB5SH     | 5-pin DIN for tape         |
-| T1    | КТ315         | BC547      | PNP transistor (C-B-E)     |
-| T2    | КТ315         | BC547      | PNP transistor (C-B-E)     |
-| T3    | КТ315         | BC547      | PNP transistor (C-B-E)     |
-| T4    | КТ315         | BC547      | PNP transistor (C-B-E)     |
-| T5    | КТ315         | BC547      | PNP transistor (C-B-E)     |
+| T1    | КТ315         | BC547      | NPN transistor (C-B-E)     |
+| T2    | КТ315         | BC547      | NPN transistor (C-B-E)     |
+| T3    | КТ315         | BC547      | NPN transistor (C-B-E)     |
+| T4    | КТ315         | BC547      | NPN transistor (C-B-E)     |
+| T5    | КТ315         | BC547      | NPN transistor (C-B-E)     |
 
 *Note: D14 has space for a 28 or 32 pin EPROM.  Address lines above A13 are not used.
 
