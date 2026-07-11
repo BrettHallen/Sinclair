@@ -9,6 +9,13 @@ The name "LUT216" comes from (I believe):
 
 [Original Page (RU)](https://sblive.narod.ru/ZX-Spectrum/LUT216/LUT216.htm)
 
+## КА1515ХМ1-216 Basic Matrix Crystal
+The BMC is the heart of this design - I think this chip is the pinnacle of Soviet Speccy engineering!<br>
+
+You can find some detailed information in Russian [here](https://zxbyte.org/t34vg1.htm).
+
+I also have an English pinout diagram [here](/LUT216/KA1515XM1-216_pinout.pdf).
+
 ## [Original Information](/LUT216/Originals)
 A copy of the original files from Z.A.N.'s page for reference:
 - LUT216.rar: Gerbers
