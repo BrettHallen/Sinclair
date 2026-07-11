@@ -15,98 +15,132 @@ A copy of the original files from Z.A.N.'s page for reference:
 - LUT216SCH.GIF: schematic
 - LUT216MontMono.png: board layout
 
-## Western Parts List (Work In Progress)
+## Notes in Russian
+- The first DRAM pins are connected together to simplify upgrading.
+- ROM_LOCK = ROM lock
+- PORT_LOCK = Kempston port lock (required for connecting a TR-DOS controller)
+- /WRPO = relevant only when connecting the 580ВВ55 (8255)
+- The default ROM pin combination is designed for installing 27128 or 27512 ROM chips with the Pentagon layout (ROM 27128/27512 pins 1, 27, and 28 are connected to +5V)
+
+## Western Parts List
 See also: https://elcomps.com/en/a72<br>
 
 Note! Soviet parts are general 2.5mm pitch and not 2.54mm - this doesn't matter much for smaller ICs but it can cause a problem with larger ICs and with pin headers!<br>
 
 All mistakes are mine - I couldn't find a BOM so have generated this from the schematic.<br>
 
-| Part ID | Soviet Part    | Western Part| Part Type                   |
-|---------|----------------|-------------|-----------------------------|
-| D1      | К555ЛН1        | 74LS04      | Hex inverter                |
-| D2      | К555АП3        | 74LS240     | Octal inverter line driver  |
-| D3      | КА1515ХМ1-216  |             | Basic matrix crystal (ULA)  |
-| D4      | К561ЛН2        | CD4049      | CMOS hex inverter           |
-| D5      | КР1858ВМ1      | Z80         | CPU                         |
-| D6      | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D7      | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D8      | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D9      | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D10     | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D11     | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D12     | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D13     | КР565РУ5       | 4164        | 64Kbit DRAM                 |
-| D14     |                | 27128       | 16KByte EPROM [1]           |
-| X1      |                | MAB5SH      | 5-pin DIN for joystick      |
-| X2      |                | MAB5SH      | 5-pin DIN for RGB video     |
-| X3      |                | MAB5SH      | 5-pin DIN for tape          |
-| T1      | КТ315          | BC547       | NPN transistor (C-B-E)      |
-| T2      | КТ315          | BC547       | NPN transistor (C-B-E)      |
-| T3      | КТ315          | BC547       | NPN transistor (C-B-E)      |
-| T4      | КТ315          | BC547       | NPN transistor (C-B-E)      |
-| T5      | КТ315          | BC547       | NPN transistor (C-B-E)      |
-| Q1      |                | 8MHz        | Crystal                     |
-| VD1-15  |                | 1N4148      | Diode                       |
-| R1      |                | 510Ω        | Green/Brown/Brown           |
-| R2      |                | 510Ω        | Green/Brown/Brown           |
-| R3      |                | 10KΩ        | Brown/Black/Orange          |
-| R4      |                | 10KΩ        | Brown/Black/Orange          |
-| R5      |                | 10KΩ        | Brown/Black/Orange          |
-| R6      |                | 10KΩ        | Brown/Black/Orange          |
-| R7      |                | 10KΩ        | Brown/Black/Orange          |
-| R8      |                | 10KΩ        | Brown/Black/Orange          |
-| R9      |                | 10KΩ        | Brown/Black/Orange          |
-| R10     |                | 10KΩ        | Brown/Black/Orange          |
-| R11     |                | 1KΩ         | Brown/Black/Red             |
-| R12     |                | 1KΩ         | Brown/Black/Red             |
-| R13     |                | 5.1KΩ       | Green/Brown/Red             |
-| R14     |                | 2KΩ         | Red/Black/Red               |
-| R15     |                | 430Ω        | Yellow/Orange/Brow          |
-| R16     |                | 10KΩ        | Brown/Black/Orange          |
-| R17     |                | 3MΩ         | Orange/Black/Green          |
-| R18     |                | 10KΩ        | Brown/Black/Orange          |
-| R19     |                | 10KΩ        | Brown/Black/Orange          |
-| R20     |                | 10KΩ        | Brown/Black/Orange          |
-| R21     |                | 10KΩ        | Brown/Black/Orange          |
-| R22     |                | 10KΩ        | Brown/Black/Orange          |
-| R23     |                | 300Ω        | Orange/Black/Brown          |
-| R24     |                | 10KΩ        | Brown/Black/Orange          |
-| R25     |                | 510Ω        | Green/Brown/Brown           |
-| R26     |                | 10KΩ        | Brown/Black/Orange          |
-| R27     |                | 10KΩ        | Brown/Black/Orange          |
-| R28     |                | 1KΩ         | Brown/Black/Red             |
-| R29     |                | 510Ω        | Green/Brown/Brown           |
-| R30     |                | 510Ω        | Green/Brown/Brown           |
-| R31     |                | 510Ω        | Green/Brown/Brown           |
-| R32     |                | 510Ω        | Green/Brown/Brown           |
-| R33     |                | 510Ω        | Green/Brown/Brown           |
-| R34     |                | 510Ω        | Green/Brown/Brown           |
-| R35     |                | 510Ω        | Green/Brown/Brown           |
-| R36     |                | 510Ω        | Green/Brown/Brown           |
-| R37     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R38     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R39     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R40     |                | 6.2KΩ       | Blue/Red/Red                |
-| R41     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R42     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R43     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R44     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R45     |                | 100Ω        | Brown/Black/Brown           |
-| R46     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R47     |                | 100Ω        | Brown/Black/Brown           |
-| R48     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R49     |                | 100Ω        | Brown/Black/Brown           |
-| R50     |                | 6.2KΩ       | Blue/Red/Red                |
-| R51     |                | 3.3KΩ       | Orange/Orange/Red           |
-| R52     |                | 10KΩ        | Brown/Black/Orange          |
-| R53     |                | 1.5KΩ       | Brown/Green/Red             |
-| R54     |                | 2KΩ         | Red/Black/Red               |
-| R55     |                | 100Ω        | Brown/Black/Brown           |
-| R65 [2] |                | 1KΩ         | Brown/Black/Red             |
+| Part ID | Soviet Part    | Western Part| Part Type                    |
+|---------|----------------|-------------|------------------------------|
+| D1      | К555ЛН1        | 74LS04      | Hex inverter                 |
+| D2      | К555АП3        | 74LS240     | Octal inverter line driver   |
+| D3      | КА1515ХМ1-216  |             | Basic matrix crystal (ULA)   |
+| D4      | К561ЛН2        | CD4049      | CMOS hex inverter            |
+| D5      | КР1858ВМ1      | Z80         | CPU                          |
+| D6      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D7      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D8      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D9      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D10     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D11     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D12     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D13     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D14     |                | 27128       | 16KByte EPROM [1]            |
+| Q1      |                | 8MHz        | Crystal                      |
+| T1-T5   | КТ315          | BC547       | NPN transistor (C-B-E)       |
+| VD1-15  |                | 1N4148      | Diode                        |
+| R1      |                | 510Ω        | Green/Brown/Brown            |
+| R2      |                | 510Ω        | Green/Brown/Brown            |
+| R3      |                | 10KΩ        | Brown/Black/Orange           |
+| R4      |                | 10KΩ        | Brown/Black/Orange           |
+| R5      |                | 10KΩ        | Brown/Black/Orange           |
+| R6      |                | 10KΩ        | Brown/Black/Orange           |
+| R7      |                | 10KΩ        | Brown/Black/Orange           |
+| R8      |                | 10KΩ        | Brown/Black/Orange           |
+| R9      |                | 10KΩ        | Brown/Black/Orange           |
+| R10     |                | 10KΩ        | Brown/Black/Orange           |
+| R11     |                | 1KΩ         | Brown/Black/Red              |
+| R12     |                | 1KΩ         | Brown/Black/Red              |
+| R13     |                | 5.1KΩ       | Green/Brown/Red              |
+| R14     |                | 2KΩ         | Red/Black/Red                |
+| R15     |                | 430Ω        | Yellow/Orange/Brow           |
+| R16     |                | 10KΩ        | Brown/Black/Orange           |
+| R17     |                | 3MΩ         | Orange/Black/Green           |
+| R18     |                | 10KΩ        | Brown/Black/Orange           |
+| R19     |                | 10KΩ        | Brown/Black/Orange           |
+| R20     |                | 10KΩ        | Brown/Black/Orange           |
+| R21     |                | 10KΩ        | Brown/Black/Orange           |
+| R22     |                | 10KΩ        | Brown/Black/Orange           |
+| R23     |                | 300Ω        | Orange/Black/Brown           |
+| R24     |                | 10KΩ        | Brown/Black/Orange           |
+| R25     |                | 510Ω        | Green/Brown/Brown            |
+| R26     |                | 10KΩ        | Brown/Black/Orange           |
+| R27     |                | 10KΩ        | Brown/Black/Orange           |
+| R28     |                | 1KΩ         | Brown/Black/Red              |
+| R29     |                | 510Ω        | Green/Brown/Brown            |
+| R30     |                | 510Ω        | Green/Brown/Brown            |
+| R31     |                | 510Ω        | Green/Brown/Brown            |
+| R32     |                | 510Ω        | Green/Brown/Brown            |
+| R33     |                | 510Ω        | Green/Brown/Brown            |
+| R34     |                | 510Ω        | Green/Brown/Brown            |
+| R35     |                | 510Ω        | Green/Brown/Brown            |
+| R36     |                | 510Ω        | Green/Brown/Brown            |
+| R37     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R38     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R39     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R40     |                | 6.2KΩ       | Blue/Red/Red                 |
+| R41     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R42     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R43     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R44     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R45     |                | 100Ω        | Brown/Black/Brown            |
+| R46     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R47     |                | 100Ω        | Brown/Black/Brown            |
+| R48     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R49     |                | 100Ω        | Brown/Black/Brown            |
+| R50     |                | 6.2KΩ       | Blue/Red/Red                 |
+| R51     |                | 3.3KΩ       | Orange/Orange/Red            |
+| R52     |                | 10KΩ        | Brown/Black/Orange           |
+| R53     |                | 1.5KΩ       | Brown/Green/Red              |
+| R54     |                | 2KΩ         | Red/Black/Red                |
+| R55     |                | 100Ω        | Brown/Black/Brown            |
+| R65 [2] |                | 1KΩ         | Brown/Black/Red              |
+| L1      |                | 200µH       | Axial inductor               |
+| C1      |                | (?) [3]     | Ceramic                      |
+| C3      |                | 33nF        | Ceramic (333)                |
+| C4      |                | 100nF       | Ceramic (104)                |
+| C5      |                | 300pF       | Ceramic (301)                |
+| C6      |                | 1µF (?) [4] | Electrolytic Capacitor       |
+| C7      |                | 100µF       | Electrolytic Capacitor       |
+| C8      |                | 100nF       | Ceramic (104)                |
+| C9 [5]  |                | 68nF        | Ceramic (683)                |
+| C15     |                | 100µF       | Electrolytic Capacitor       |
+| C16 [5] |                | 68nF        | Ceramic (683)                |
+| C17 [5] |                | 68nF        | Ceramic (683)                |
+| C18 [5] |                | 68nF        | Ceramic (683)                |
+| C19 [5] |                | 68nF        | Ceramic (683)                |
+| C20 [5] |                | 68nF        | Ceramic (683)                |
+| C21 [5] |                | 68nF        | Ceramic (683)                |
+| C22 [5] |                | 68nF        | Ceramic (683)                |
+| C23 [5] |                | 68nF        | Ceramic (683)                |
+| C24 [5] |                | 68nF        | Ceramic (683)                |
+| C25 [5] |                | 68nF        | Ceramic (683)                |
+| C26 [5] |                | 68nF        | Ceramic (683)                |
+| C27 [5] |                | 68nF        | Ceramic (683)                |
+| X1      |                | MAB5SH      | 5-pin DIN for joystick       |
+| X2      |                | MAB5SH      | 5-pin DIN for RGB video      |
+| X3      |                | MAB5SH      | 5-pin DIN for tape           |
+| POWER   |                |             | 1x4 pin header               |
+| SPKR    |                |             | 1x2 pin header               |
+| RESET   |                |             | 1x2 pin header               |
+| SV2     |                |             | 2x8 DIP ribbon connector [6] |
+
 
 - Note 1: D14 has space for a 28 or 32 pin EPROM and it configured for a 27128 or 27512.  Address lines above A13 are not used.
 - Note 2: I suspect this should be R56
+- Note 3: Unspecified on schematic, used oscillator match to your particular crystal (i.e. 22pF, 220)
+- Note 4: Unspecified on schematic, used in reset circuit so assuming 1µF electrolytic
+- Note 5: You could use standard 100nF (104) instead of 68nF for these decoupling capacitors
+- Note 6: This is for the keyboard connector, I think Harting 09170169622 or similar
 
 | Resistor  | Count  |
 |-----------|--------|
@@ -124,3 +158,6 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 | 3MΩ       | 1      |
 | **Total** | **56** |
 
+![LUT216 schematic](/LUT216/LUT216SCH.gif)
+
+![LUT216 board layout](/LUT216/LUT216MontMono.png)
