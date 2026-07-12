@@ -12,6 +12,13 @@ The name "LUT216" comes from (I believe):
 ## КА1515ХМ1-216 Basic Matrix Crystal
 The BMC is the heart of this design - I think this chip is the pinnacle of Soviet Speccy engineering!<br>
 
+The transliteration of the part ID is "KA1515HM1".  The "-216" indicates the customised version for implementing in ZX Spectrum clones to replace the ULA (and more).  There were [others for the ZX Spectrum](https://martin.hinner.info/iccmap/ru/info/ka1515xm1.html) but the -216 is the only one I've ever come across:
+- КА1515ХМ1-171
+- КА1515ХМ1-433
+- КА1515ХМ1-6004
+- КА1515ХМ1-6006
+- КА1515ХМ1-6008
+
 You can find some detailed information in Russian [here](https://zxbyte.org/t34vg1.htm).
 
 I also have an English pinout diagram [here](/LUT216/KA1515XM1-216_pinout.pdf).
