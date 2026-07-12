@@ -43,14 +43,14 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 | D3      | КА1515ХМ1-216  |             | Basic matrix crystal (= ULA) |
 | D4      | К561ЛН2        | CD4049      | CMOS hex inverter            |
 | D5      | КР1858ВМ1      | Z80         | CPU                          |
-| D6      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
-| D7      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
-| D8      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
-| D9      | КР565РУ5       | 4164        | 64Kbit DRAM                  |
-| D10     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
-| D11     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
-| D12     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
-| D13     | КР565РУ5       | 4164        | 64Kbit DRAM                  |
+| D6      | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
+| D7      | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
+| D8      | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
+| D9      | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
+| D10     | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
+| D11     | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
+| D12     | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
+| D13     | КР565РУ5 [0]   | 4164        | 64Kbit DRAM                  |
 | D14     |                | 27128       | 16KByte EPROM [1]            |
 | Q1      |                | 8MHz        | Crystal                      |
 | T1-T5   | КТ315          | BC547 [2]   | NPN transistor (B-C-E)       |
@@ -111,44 +111,46 @@ All mistakes are mine - I couldn't find a BOM so have generated this from the sc
 | R54     |                | 2KΩ         | Red/Black/Red                |
 | R55     |                | 100Ω        | Brown/Black/Brown            |
 | R65 [3] |                | 1KΩ         | Brown/Black/Red              |
-| L1      |                | 200µH       | Axial inductor               |
-| C1      |                | (?) [4]     | Ceramic                      |
+| L1      | ДМ-0.2-200 [4] | 200µH       | Axial inductor               |
+| C1      |                | (?) [5]     | Ceramic                      |
 | C3      |                | 33nF        | Ceramic (333)                |
 | C4      |                | 100nF       | Ceramic (104)                |
 | C5      |                | 300pF       | Ceramic (301)                |
 | C6      |                | 1µF (?) [6] | Electrolytic Capacitor       |
 | C7      |                | 100µF       | Electrolytic Capacitor       |
 | C8      |                | 100nF       | Ceramic (104)                |
-| C9      |                | 68nF [6]    | Ceramic (683)                |
+| C9      |                | 68nF [7]    | Ceramic (683)                |
 | C15     |                | 100µF       | Electrolytic Capacitor       |
-| C16     |                | 68nF [6]    | Ceramic (683)                |
-| C17     |                | 68nF [6]    | Ceramic (683)                |
-| C18     |                | 68nF [6]    | Ceramic (683)                |
-| C19     |                | 68nF [6]    | Ceramic (683)                |
-| C20     |                | 68nF [6]    | Ceramic (683)                |
-| C21     |                | 68nF [6]    | Ceramic (683)                |
-| C22     |                | 68nF [6]    | Ceramic (683)                |
-| C23     |                | 68nF [6]    | Ceramic (683)                |
-| C24     |                | 68nF [6]    | Ceramic (683)                |
-| C25     |                | 68nF [6]    | Ceramic (683)                |
-| C26     |                | 68nF [6]    | Ceramic (683)                |
-| C27     |                | 68nF [6]    | Ceramic (683)                |
+| C16     |                | 68nF [7]    | Ceramic (683)                |
+| C17     |                | 68nF [7]    | Ceramic (683)                |
+| C18     |                | 68nF [7]    | Ceramic (683)                |
+| C19     |                | 68nF [7]    | Ceramic (683)                |
+| C20     |                | 68nF [7]    | Ceramic (683)                |
+| C21     |                | 68nF [7]    | Ceramic (683)                |
+| C22     |                | 68nF [7]    | Ceramic (683)                |
+| C23     |                | 68nF [7]    | Ceramic (683)                |
+| C24     |                | 68nF [7]    | Ceramic (683)                |
+| C25     |                | 68nF [7]    | Ceramic (683)                |
+| C26     |                | 68nF [7]    | Ceramic (683)                |
+| C27     |                | 68nF [7]    | Ceramic (683)                |
 | X1      |                | MAB5SH      | 5-pin DIN for joystick       |
 | X2      |                | MAB5SH      | 5-pin DIN for RGB video      |
 | X3      |                | MAB5SH      | 5-pin DIN for tape           |
 | POWER   |                |             | 1x4 pin header               |
 | SPKR    |                |             | 1x2 pin header               |
 | RESET   |                |             | 1x2 pin header               |
-| SV2     |                |             | 2x8 DIP ribbon connector [7] |
+| SV2     |                |             | 2x8 DIP ribbon connector [8] |
 
 
+- Note 0: Original Soviet parts *might* be available on ebay: try searching for "kr565ru5"
 - Note 1: D14 has space for a 28 or 32 pin EPROM and it configured for a 27128 or 27512.  Address lines above A13 are not used.
 - Note 2: The KT-13 (flat plastic) package has pin order B-C-E, if you are using a Western equivalent (i.e. BC337, BC547 or 2N3904) be sure to check the pin order!  However the Soviet parts seem to be easily available on ebay so I'd just source them.
 - Note 3: I suspect this should be R56
-- Note 4: Unspecified on schematic, match the capacitor value to your particular particular crystal (i.e. 22pF, 220)
-- Note 5: Unspecified on schematic, used in reset circuit so assuming 1µF electrolytic
-- Note 6: You could use standard 100nF (104) instead of 68nF for these decoupling capacitors
-- Note 7: This is for the keyboard connector, I think Harting 09170169622 or similar
+- Note 4: I guessed at the Soviet inductor (choke) part ID - these should be available on ebay: try searching for "200uh soviet choke"
+- Note 5: Unspecified on schematic, match the capacitor value to your particular particular crystal (i.e. 22pF, 220)
+- Note 6: Unspecified on schematic, used in reset circuit so assuming 1µF electrolytic
+- Note 7: You could use standard 100nF (104) instead of 68nF for these decoupling capacitors
+- Note 8: This is for the keyboard connector, I think Harting 09170169622 or similar
 
 | Resistor  | Count  |
 |-----------|--------|
