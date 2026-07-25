@@ -1,0 +1,8 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Field4,KiLib_Generator,Field5,Description
+J1,1,ZX81 Expansion,EDGE ZX81 BOTTOM,,,,tht,SLOT,,,
+J2,1,Pin Header Breakout,PinHeader_2x23_P2.54mm_Vertical,,,,tht,,connector/pin_header_socket,,
+J3,1,ZX81 Extender,EDGE ZX81 TOP,,,,tht,SLOT,,SLOT,
+"J4, J5",2,GND LINK,PinHeader_1x01_P2.54mm_Vertical,,,,tht,,connector/pin_header_socket,,"Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+R1,1,470Ω,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,,resistor/THT,,Resistor
+R2,1,LINK,PinHeader_1x02_P2.54mm_Vertical,,,,tht,,connector/pin_header_socket,,Resistor
+SW1,1,RESET,SW_PUSH_6mm,,,,tht,,,,Single Pole Single Throw (SPST) switch
