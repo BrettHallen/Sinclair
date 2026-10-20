@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ZX81 Expansion Breakout")
-		(date "25/JUL/2026")
-		(rev "Issue 1")
+		(date "20/Oct/2026")
+		(rev "Issue 2")
 		(company "Brett Hallen")
 		(comment 3 "https://github.com/zxinfo-diy-electronics/zx81-bus-extender")
 		(comment 4 "Based on ZX81 Bus Extender by Thomas Kolbeck")
@@ -1342,16 +1342,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 127) (xy 83.82 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0949a132-e077-4d9f-8c3a-a18467e62315")
-	)
-	(wire
-		(pts
 			(xy 106.68 127) (xy 101.6 127)
 		)
 		(stroke
@@ -1359,6 +1349,16 @@
 			(type default)
 		)
 		(uuid "0c64b609-7b16-4059-ab76-81f3c6f95938")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 83.82 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "947b1ebb-679b-4e0f-ab6b-aea57cf4881f")
 	)
 	(wire
 		(pts
@@ -5199,86 +5199,6 @@
 			(project "ZX81_Expansion_Breakout"
 				(path "/9fe308ca-3f7b-4728-94aa-e25b3513d2a1"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40129550-6a38-4ab2-ad1f-002e9881077b")
-		(property "Reference" "R1"
-			(at 76.2 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470Ω"
-			(at 76.2 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 76.2 128.778 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d0529b7-6530-4a60-9ab9-205081811bb8")
-		)
-		(pin "2"
-			(uuid "8a324049-d21e-4a78-8059-487d2866cc1d")
-		)
-		(instances
-			(project "ZX81_Expansion_Breakout"
-				(path "/9fe308ca-3f7b-4728-94aa-e25b3513d2a1"
-					(reference "R1")
 					(unit 1)
 				)
 			)
