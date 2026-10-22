@@ -142,146 +142,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -1324,7 +1184,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "To get the [RESET] button to work two link wires are required, as indicated on the PCB."
+	(text "To get the [RESET] button to work the GND link is required, as indicated on the PCB."
 		(exclude_from_sim no)
 		(at 94.234 138.684 0)
 		(effects
@@ -1352,7 +1212,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 127) (xy 83.82 127)
+			(xy 88.9 127) (xy 91.44 127)
 		)
 		(stroke
 			(width 0)
@@ -1756,7 +1616,7 @@
 	)
 	(global_label "~{RESET}"
 		(shape input)
-		(at 72.39 127 180)
+		(at 88.9 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1766,7 +1626,7 @@
 		)
 		(uuid "19e91ca6-210f-4f9a-ba5b-d12c997fb1e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6597 127 0)
+			(at 80.1697 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5199,86 +5059,6 @@
 			(project "ZX81_Expansion_Breakout"
 				(path "/9fe308ca-3f7b-4728-94aa-e25b3513d2a1"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 87.63 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ef238e0-8e08-4d78-a39b-dd189a3e7e3a")
-		(property "Reference" "R2"
-			(at 87.63 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LINK"
-			(at 87.63 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 87.63 128.778 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "83e8efba-4190-42c0-abec-8c4ea97ca104")
-		)
-		(pin "2"
-			(uuid "11ff0bef-6e50-49e0-99da-0df5e5bf08a7")
-		)
-		(instances
-			(project "ZX81_Expansion_Breakout"
-				(path "/9fe308ca-3f7b-4728-94aa-e25b3513d2a1"
-					(reference "R2")
 					(unit 1)
 				)
 			)

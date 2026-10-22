@@ -2,7 +2,6 @@
 90.3786,-78.602,0.0,top,J1,,,EDGE ZX81 BOTTOM,ZX81 Expansion,tht
 61.094,-50.412,90.0,top,J2,,,PinHeader_2x23_P2.54mm_Vertical,Pin Header Breakout,tht
 90.3986,-33.432,0.0,top,J3,,,EDGE ZX81 TOP,ZX81 Extender,tht
-100.464,-55.238,0.0,top,J4,,,PinHeader_1x01_P2.54mm_Vertical,GND LINK,tht
-66.428,-55.238,0.0,top,J5,,,PinHeader_1x01_P2.54mm_Vertical,GND LINK,tht
-110.624,-66.802,-90.0,top,R2,,,PinHeader_1x02_P2.54mm_Vertical,LINK,tht
-106.964,-63.112,180.0,top,SW1,,,SW_PUSH_6mm,RESET,tht
+107.449,-56.127,0.0,top,J4,,,PinHeader_1x01_P2.54mm_Vertical,GND LINK,tht
+66.428,-56.127,0.0,top,J5,,,PinHeader_1x01_P2.54mm_Vertical,GND LINK,tht
+111.894,-59.937,-90.0,top,SW1,,,SW_PUSH_6mm,RESET,tht
